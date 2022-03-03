@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "eHopeWarriors",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "eHopeWarriors",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "homepage": "https://dev.ehopewarriors.com",
+  "author": "Sebastian Boica <boicasebastian@gmail.com>",
   "dependencies": {
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
@@ -59,6 +60,8 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b dev_deploy -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "develop:share": "gatsby develop -H 0.0.0.0 -p 8000",
