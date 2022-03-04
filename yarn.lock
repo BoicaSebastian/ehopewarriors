@@ -12451,10 +12451,10 @@ react-modal-video@^1.2.6:
   dependencies:
     react-transition-group "^2.2.1"
 
-react-parallax-tilt@^1.5.3:
-  version "1.5.3"
-  resolved "https://registry.npmjs.org/react-parallax-tilt/-/react-parallax-tilt-1.5.3.tgz"
-  integrity sha512-xsEhHw9wQO988pbo8IxrRLdQS9L/LOUaotG/F3XKJzlj9g0RU3Nq9qXnsJO2Qx6RbJO5KkBNPio7A6p6kALKrg==
+react-parallax-tilt@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/react-parallax-tilt/-/react-parallax-tilt-1.6.2.tgz#fc2675f593c1398be015f8ac77f745990a35c621"
+  integrity sha512-POsENy6nFNLEue/HriJb0yZtDND7Bztff9Uq08EKujxNoFxCQxjRVVoZnRKaOYw2UgQt3kYluXYFt2TicRSBAw==
 
 react-refresh@^0.9.0:
   version "0.9.0"
