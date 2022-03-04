@@ -24,7 +24,7 @@
     "gatsby-plugin-svgr-loader": "^0.1.0",
     "gatsby-plugin-theme-ui": "^0.13.1",
     "gatsby-remark-images": "^6.9.0",
-    "gatsby-source-filesystem": "^3.1.0",
+    "gatsby-source-filesystem": "^4.9.0",
     "gatsby-transformer-json": "^3.1.0",
     "gatsby-transformer-remark": "^3.2.0",
     "gatsby-transformer-sharp": "^3.1.0",
