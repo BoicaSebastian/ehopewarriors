@@ -6,7 +6,6 @@ import Hero from "@containers/home/hero";
 import ServiceArea from "@containers/home/services";
 import AboutArea from "@containers/home/about";
 import CausesArea from "@containers/home/causes";
-import DonateArea from "../containers/home/donate";
 import FunfactArea from "../containers/home/funfact";
 import EventArea from "../containers/home/events";
 import TestimonialArea from "../containers/home/testimonial";
@@ -20,7 +19,6 @@ const IndexPage = () => {
             <ServiceArea />
             <AboutArea />
             <CausesArea />
-            <DonateArea />
             <FunfactArea />
             <EventArea />
             <TestimonialArea />
