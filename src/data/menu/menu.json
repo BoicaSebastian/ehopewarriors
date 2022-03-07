@@ -1,62 +1,27 @@
 [
     {
-        "text": "Home",
+        "isSubmenu": false,
         "link": "/",
-        "isSubmenu": false
+        "text": "Home"
     },
     {
-        "text": "About",
+        "isSubmenu": false,
         "link": "/about-us",
-        "isSubmenu": false
+        "text": "About"
     },
     {
-        "text": "Causes",
+        "isSubmenu": true,
         "link": "/causes",
-        "isSubmenu": true,
         "submenu": [
             {
-                "text": "Causes",
-                "link": "/causes"
+                "link": "/causes",
+                "text": "Causes"
             },
             {
-                "text": "Causes Details",
-                "link": "/causes/children-education-needs-for-change-the-world"
+                "link": "/causes/children-education-needs-for-change-the-world",
+                "text": "Causes Details"
             }
-        ]
-    },
-    {
-        "text": "Blog",
-        "link": "/blog",
-        "isSubmenu": true,
-        "submenu": [
-            {
-                "text": "Blog Grid",
-                "link": "/blog"
-            },
-            {
-                "text": "Blog Single",
-                "link": "/needs-for-change-the-world"
-            }
-        ]
-    },
-    {
-        "text": "Pages",
-        "link": "/volunteer",
-        "isSubmenu": true,
-        "submenu": [
-            {
-                "text": "Event Details",
-                "link": "/events/need-school-for-mozambique-children"
-            },
-            {
-                "text": "Volunteer",
-                "link": "/volunteer"
-            }
-        ]
-    },
-    {
-        "text": "Contact Us",
-        "link": "/contact-us",
-        "isSubmenu": false
+        ],
+        "text": "Causes"
     }
 ]
