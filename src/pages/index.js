@@ -10,7 +10,6 @@ import DonateArea from "../containers/home/donate";
 import FunfactArea from "../containers/home/funfact";
 import EventArea from "../containers/home/events";
 import TestimonialArea from "../containers/home/testimonial";
-import LatestBlog from "../containers/home/blog";
 import SponsorsArea from "../containers/home/sponsors";
 
 const IndexPage = () => {
@@ -25,7 +24,6 @@ const IndexPage = () => {
             <FunfactArea />
             <EventArea />
             <TestimonialArea />
-            <LatestBlog />
             <SponsorsArea />
         </Layout>
     );
