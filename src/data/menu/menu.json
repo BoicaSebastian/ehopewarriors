@@ -31,7 +31,7 @@
     },
     {
         "isSubmenu": false,
-        "link": "#team",
+        "link": "/#team",
         "text": "Team"
     }
 ]
