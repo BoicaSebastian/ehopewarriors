@@ -53,7 +53,7 @@ const TeamArea = () => {
                         {team &&
                             team.map((item, i) => {
                                 return (
-                                    <Col lg={4} key={i}>
+                                    <Col lg={2} key={i}>
                                         <Team
                                             name={item.name}
                                             designation={item.designation}

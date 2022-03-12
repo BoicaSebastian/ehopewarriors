@@ -7,9 +7,9 @@ import ServiceArea from "@containers/home/services";
 import AboutArea from "@containers/home/about";
 import CausesArea from "@containers/home/causes";
 import FunfactArea from "../containers/home/funfact";
-import EventArea from "../containers/home/events";
 import TestimonialArea from "../containers/home/testimonial";
 import SponsorsArea from "../containers/home/sponsors";
+import TeamArea from "../containers/volunteer/team";
 
 const IndexPage = () => {
     return (
@@ -19,8 +19,8 @@ const IndexPage = () => {
             <ServiceArea />
             <AboutArea />
             <CausesArea />
+            <TeamArea />
             <FunfactArea />
-            <EventArea />
             <TestimonialArea />
             <SponsorsArea />
         </Layout>
