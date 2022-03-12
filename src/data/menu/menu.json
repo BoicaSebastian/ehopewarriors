@@ -10,16 +10,6 @@
         "text": "About"
     },
     {
-        "isSubmenu": false,
-        "link": "#",
-        "text": "Roadmap"
-    },
-    {
-        "isSubmenu": false,
-        "link": "#",
-        "text": "Team"
-    },
-    {
         "isSubmenu": true,
         "link": "/causes",
         "submenu": [
@@ -33,5 +23,15 @@
             }
         ],
         "text": "Causes"
+    },
+    {
+        "isSubmenu": false,
+        "link": "#",
+        "text": "Roadmap"
+    },
+    {
+        "isSubmenu": false,
+        "link": "#team",
+        "text": "Team"
     }
 ]

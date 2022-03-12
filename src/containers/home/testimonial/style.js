@@ -135,6 +135,7 @@ export const NavigationWrap = styled.div`
         -moz-transition: 0.3s;
         -ms-transition: 0.3s;
         -o-transition: 0.3s;
+        padding: 20px;
         &:focus {
             outline: none;
         }

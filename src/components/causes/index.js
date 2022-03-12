@@ -59,7 +59,11 @@ const CausesItem = ({
                     <UserAdminTitle>
                         <Link to={`/causes/${slug}`}>
                             <UserAdminImg>
-                                <GatsbyImage image={adminImg} alt="Icon" />
+                                <GatsbyImage
+                                    class="cause-icon"
+                                    image={adminImg}
+                                    alt="Icon"
+                                />
                             </UserAdminImg>
                             {adminName}
                         </Link>

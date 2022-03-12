@@ -14,4 +14,9 @@ export const SectionArea = styled.section`
     ${device.xlarge} {
         padding: 148px 0 152px;
     }
+
+    .cause-icon {
+        margin-top: 10px;
+        overflow: visible !important;
+    }
 `;
