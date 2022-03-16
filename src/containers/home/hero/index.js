@@ -17,6 +17,7 @@ import {
     DonateCircleWrap,
     DonateContent,
 } from "./style";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
     const heroSlider = useStaticQuery(graphql`
@@ -72,6 +73,7 @@ const Hero = () => {
         parallaxInstance.enable();
         return () => parallaxInstance.disable();
     }, []);
+    const { t } = useTranslation();
 
     return (
         <Section>
@@ -90,7 +92,7 @@ const Hero = () => {
                                 <HeroTitleWrap>
                                     <h1
                                         dangerouslySetInnerHTML={{
-                                            __html: title,
+                                            __html: t("welcome_to_react"),
                                         }}
                                     />
                                 </HeroTitleWrap>
