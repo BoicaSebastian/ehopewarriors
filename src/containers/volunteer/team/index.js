@@ -44,6 +44,7 @@ const TeamArea = () => {
                             textCenter
                             title={"Talented Team of eHopeWarriors."}
                             subTitle={subTitle}
+                            className="volunteer-title"
                         />
                     </Col>
                 </Row>

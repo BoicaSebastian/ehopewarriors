@@ -1,5 +1,4 @@
 import * as React from "react";
-
 import Layout from "@layout";
 import SEO from "@components/seo";
 import Hero from "@containers/home/hero";
@@ -10,6 +9,7 @@ import FunfactArea from "../containers/home/funfact";
 import TestimonialArea from "../containers/home/testimonial";
 import SponsorsArea from "../containers/home/sponsors";
 import TeamArea from "../containers/volunteer/team";
+import "./../i18n";
 
 const IndexPage = () => {
     return (
