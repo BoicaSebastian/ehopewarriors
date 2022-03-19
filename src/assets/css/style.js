@@ -205,7 +205,6 @@ export const GlobalCSS = () => {
                     overflow-y: auto;
                 }
                 body {
-                    overflow: hidden;
                     margin: 0;
                     padding: 0;
                     line-height: ${theme.lineHeights.body};
