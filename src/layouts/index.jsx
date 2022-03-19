@@ -12,6 +12,7 @@ import { useTranslation } from "react-i18next";
 import i18n from "./../i18n";
 import { Container, DropdownButton, Dropdown } from "react-bootstrap";
 import { useState } from "react";
+import ReactCountryFlag from "react-country-flag";
 
 const Layout = ({ children }) => {
     // const { t } = useTranslation();
@@ -38,12 +39,28 @@ const Layout = ({ children }) => {
                                     as="button"
                                     onClick={() => changeLanguage("en")}
                                 >
+                                    <ReactCountryFlag
+                                        countryCode="GB"
+                                        svg
+                                        style={{
+                                            width: "2em",
+                                            height: "2em",
+                                        }}
+                                    />
                                     EN
                                 </Dropdown.Item>
                                 <Dropdown.Item
                                     as="button"
                                     onClick={() => changeLanguage("ro")}
                                 >
+                                    <ReactCountryFlag
+                                        countryCode="RO"
+                                        svg
+                                        style={{
+                                            width: "2em",
+                                            height: "2em",
+                                        }}
+                                    />
                                     RO
                                 </Dropdown.Item>
                             </DropdownButton>
