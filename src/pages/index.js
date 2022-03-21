@@ -1,17 +1,15 @@
 import * as React from "react";
-
 import Layout from "@layout";
 import SEO from "@components/seo";
 import Hero from "@containers/home/hero";
 import ServiceArea from "@containers/home/services";
 import AboutArea from "@containers/home/about";
 import CausesArea from "@containers/home/causes";
-import DonateArea from "../containers/home/donate";
 import FunfactArea from "../containers/home/funfact";
-import EventArea from "../containers/home/events";
 import TestimonialArea from "../containers/home/testimonial";
-import LatestBlog from "../containers/home/blog";
 import SponsorsArea from "../containers/home/sponsors";
+import TeamArea from "../containers/volunteer/team";
+import "./../i18n";
 
 const IndexPage = () => {
     return (
@@ -21,11 +19,9 @@ const IndexPage = () => {
             <ServiceArea />
             <AboutArea />
             <CausesArea />
-            <DonateArea />
+            <TeamArea />
             <FunfactArea />
-            <EventArea />
             <TestimonialArea />
-            <LatestBlog />
             <SponsorsArea />
         </Layout>
     );

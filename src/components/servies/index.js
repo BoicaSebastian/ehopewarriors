@@ -13,14 +13,13 @@ import {
     ParText,
 } from "./style";
 
-const ServiceItem = ({ title, parText, slug,  image, itemClassName }) => {
-
+const ServiceItem = ({ title, parText, slug, image, itemClassName }) => {
     const iconImg = getImage(image);
     return (
         <IconBoxitem className={`${itemClassName} mb-5`}>
             <IconBoxTop>
                 <IconBox>
-                    <GatsbyImage image={iconImg} alt="" />
+                    <GatsbyImage class="services-icon" image={iconImg} alt="" />
                 </IconBox>
                 <Title>{title}</Title>
             </IconBoxTop>
@@ -52,7 +51,7 @@ ServiceItem.propTypes = {
     parText: PropTypes.string,
     image: PropTypes.object,
     itemClassName: PropTypes.string,
-    slug: PropTypes.string
+    slug: PropTypes.string,
 };
 
 // ServiceItem.defaultProps = {

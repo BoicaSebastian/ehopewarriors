@@ -40,7 +40,7 @@ const SponsorsArea = () => {
                                 mb: ["30px", "50px", "60px", "60px", "60px"],
                                 mt: ["0px", "0px", "0px", "0px", "60px"],
                             }}
-                            title={"Our Current Sponsors."}
+                            title={"Our Current Partners."}
                         />
                     </Col>
                     <Col xl={{ span: 7, offset: 1 }} lg={8}>

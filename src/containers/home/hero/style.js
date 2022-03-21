@@ -74,11 +74,11 @@ export const HeroTitleWrap = styled.div`
             font-size: ${themeGet("fontSize.h1.3")};
         }
         ${device.xlarge} {
-            font-size: ${themeGet("fontSize.h1.4")};
+            font-size: ${themeGet("fontSize.h2.4")};
             line-height: 1.0934;
         }
         ${device.xxlarge} {
-            font-size: ${themeGet("fontSize.h1.5")};
+            font-size: ${themeGet("fontSize.h2.5")};
             line-height: 1.0934;
         }
         ${device.xxlarge} {
@@ -128,10 +128,10 @@ export const HeroTitleWrap = styled.div`
             }
             ${device.xxlarge} {
                 &:before {
-                    background-position: 13px 9px;
+                    background-position: 13px 0px;
                     background-size: cover;
-                    min-width: 334px;
-                    width: 100%;
+                    min-width: 234px;
+                    width: 80%;
                 }
             }
         }

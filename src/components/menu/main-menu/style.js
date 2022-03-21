@@ -1,4 +1,5 @@
 import styled, { themeGet, device } from "@theme/utils";
+import ActiveMenuImg from "@assets/images/menu-shape.png";
 
 export const HeaderNavigationArea = styled.div`
     display: none;
@@ -31,6 +32,28 @@ export const Navitem = styled.li`
         position: relative;
         &:hover {
             color: ${themeGet("colors.primary")};
+        }
+    }
+
+    .active {
+        color: #fff;
+        &:before {
+            background-image: url(${ActiveMenuImg});
+            background-repeat: no-repeat;
+            background-position: 45% 15%;
+            content: "";
+            display: block;
+            height: 100%;
+            left: 50%;
+            min-width: 118px;
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            z-index: -1;
+            transform: translate(-50%, -50%);
+        }
+        &:hover {
+            color: #fff;
         }
     }
 

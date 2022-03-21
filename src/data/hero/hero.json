@@ -1,10 +1,10 @@
 [
     {
-        "subTitle": "Change The World.",
-        "title": "Need Your Big Hand For <span>Change</span> The World.",
         "circleImage": "../images/shape/circle1.png",
-        "sliderImage": "../images/slider/1.jpg",
+        "shapeImage1": "../images/shape/1.png",
         "shapeImage2": "../images/shape/2.png",
-        "shapeImage1": "../images/shape/1.png"
+        "sliderImage": "../images/slider/slider-image.png",
+        "subTitle": "Change The World.",
+        "title": "Join the HOPE army. Be<span> a Warrior</span> for children battling cancer."
     }
 ]

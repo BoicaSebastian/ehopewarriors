@@ -34,7 +34,7 @@ const TeamArea = () => {
         team,
     } = volunteerQuery.volunteerJson;
     return (
-        <SectionArea>
+        <SectionArea id="team">
             <Container>
                 <Row>
                     <Col lg={8} className="m-auto">
@@ -42,8 +42,9 @@ const TeamArea = () => {
                             sx={{ mb: "50px" }}
                             titleStyle
                             textCenter
-                            title={"Talented Volunteer Team of Givest."}
+                            title={"Talented Team of eHopeWarriors."}
                             subTitle={subTitle}
+                            className="volunteer-title"
                         />
                     </Col>
                 </Row>
@@ -53,7 +54,7 @@ const TeamArea = () => {
                         {team &&
                             team.map((item, i) => {
                                 return (
-                                    <Col lg={4} key={i}>
+                                    <Col lg={2} key={i}>
                                         <Team
                                             name={item.name}
                                             designation={item.designation}

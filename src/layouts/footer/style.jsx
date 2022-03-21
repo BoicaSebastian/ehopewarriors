@@ -179,7 +179,7 @@ export const CopyrightText = styled.p`
 `;
 
 export const FooterShapeLayer = styled.div`
-    bottom: -15px;
+    bottom: 0px;
     left: 50%;
     pointer-events: none;
     position: absolute;
