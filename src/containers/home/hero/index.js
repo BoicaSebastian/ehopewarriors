@@ -18,6 +18,7 @@ import {
     DonateContent,
 } from "./style";
 import { useTranslation } from "react-i18next";
+import SliderImg from "@assets/images/homepage/slider-image.gif";
 
 const Hero = () => {
     const heroSlider = useStaticQuery(graphql`
@@ -79,7 +80,7 @@ const Hero = () => {
         <Section>
             <HomeSliderItem>
                 <Container>
-                    <Row>
+                    <Row className="asd">
                         <Col md={6} lg={6} xl={7}>
                             <Content>
                                 <SubTitle>
@@ -126,7 +127,11 @@ const Hero = () => {
                                         className="scene-layer"
                                         data-depth="0.20"
                                     >
-                                        <GatsbyImage image={image} alt="" />
+                                        <img
+                                            width="100%"
+                                            className="home-gif-img"
+                                            src={SliderImg}
+                                        ></img>
                                     </span>
                                     <div className="shape-circle scene">
                                         <span

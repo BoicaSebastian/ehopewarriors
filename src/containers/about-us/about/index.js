@@ -13,6 +13,7 @@ import {
     AboutContent,
     ContentBoxWrp,
 } from "./style";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 
 const AboutPageArea = () => {
     const aboutSectonQery = useStaticQuery(graphql`
@@ -25,6 +26,8 @@ const AboutPageArea = () => {
                 }
                 content1
                 content2
+                content3
+                content4
                 image1 {
                     childImageSharp {
                         gatsbyImageData
@@ -35,6 +38,11 @@ const AboutPageArea = () => {
                     VerientClassName
                     text1
                     text2
+                    text3
+                    text4
+                    text5
+                    text6
+                    text7
                     title
                 }
             }
@@ -46,10 +54,12 @@ const AboutPageArea = () => {
         content1,
         content2,
         content3,
+        content4,
         mission,
     } = aboutSectonQery.aboutUsJson;
 
     const imageOne = getImage(image1);
+    const { t } = useTranslation();
 
     return (
         <SectionArea>
@@ -78,33 +88,42 @@ const AboutPageArea = () => {
                     </Col>
                     <Col lg={8} xl={8}>
                         <AboutContent>
-                            <AboutTextStyle>{content1}</AboutTextStyle>
+                            <AboutTextStyle>
+                                {t("about_us_our_story_title")}
+                            </AboutTextStyle>
                             <p>{content2}</p>
-                            <p className="mb-0">{content3}</p>
+                            <p>{content3}</p>
+                            <p>{content4}</p>
                         </AboutContent>
-                        <ContentBoxWrp>
-                            <Row>
-                                {mission.map((itemData) => {
-                                    return (
-                                        <Col
-                                            lg={6}
-                                            md={6}
-                                            sm={6}
-                                            key={itemData.id}
-                                        >
-                                            <MissionBox
-                                                title={itemData.title}
-                                                text1={itemData.text1}
-                                                text2={itemData.text2}
-                                                VerientClassName={
-                                                    itemData.VerientClassName
-                                                }
-                                            />
-                                        </Col>
-                                    );
-                                })}
-                            </Row>
-                        </ContentBoxWrp>
+                    </Col>
+                    <Col>
+                        <Row>
+                            {mission.map((itemData) => {
+                                return (
+                                    <Col
+                                        className="about-cols"
+                                        lg={4}
+                                        md={7}
+                                        sm={4}
+                                        key={itemData.id}
+                                    >
+                                        <MissionBox
+                                            title={itemData.title}
+                                            text1={itemData.text1}
+                                            text2={itemData.text2}
+                                            text3={itemData.text3}
+                                            text4={itemData.text4}
+                                            text5={itemData.text5}
+                                            text6={itemData.text6}
+                                            text7={itemData.text7}
+                                            VerientClassName={
+                                                itemData.VerientClassName
+                                            }
+                                        />
+                                    </Col>
+                                );
+                            })}
+                        </Row>
                     </Col>
                 </Row>
             </Container>

@@ -19,7 +19,9 @@ const IndexPage = () => {
             <ServiceArea />
             <AboutArea />
             <CausesArea />
-            <TeamArea />
+            <div className="home-team-wrapper">
+                <TeamArea />
+            </div>
             <FunfactArea />
             <TestimonialArea />
             <SponsorsArea />

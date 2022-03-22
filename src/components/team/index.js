@@ -22,7 +22,7 @@ const Team = ({ name, designation, images }) => {
                         <i className="icofont-facebook"></i>
                     </a>
                     <a href="#!">
-                        <i className="icofont-skype"></i>
+                        <i className="icofont-linkedin"></i>
                     </a>
                     <a href="#!">
                         <i className="icofont-twitter"></i>
@@ -32,7 +32,9 @@ const Team = ({ name, designation, images }) => {
             <Content>
                 <TeamMemberInfo>
                     <MemberName>
-                        <a href="#/">{name}</a>
+                        <a className="member-name" href="#/">
+                            {name}
+                        </a>
                     </MemberName>
                     <Designation>{designation}</Designation>
                 </TeamMemberInfo>
