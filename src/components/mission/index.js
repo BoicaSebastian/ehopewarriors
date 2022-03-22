@@ -8,7 +8,17 @@ import {
     DesctionTextTwo,
 } from "./style";
 
-const MissionBox = ({ title, text1, text2, VerientClassName }) => {
+const MissionBox = ({
+    title,
+    text1,
+    text2,
+    text3,
+    text4,
+    text5,
+    text6,
+    text7,
+    VerientClassName,
+}) => {
     return (
         <ContentBoxItem className={`${VerientClassName}`}>
             <Title>{title}</Title>
@@ -18,7 +28,12 @@ const MissionBox = ({ title, text1, text2, VerientClassName }) => {
                 alt="Image-Givest"
             />
             <DesctionTextOne>{text1}</DesctionTextOne>
-            <DesctionTextTwo>{text2}</DesctionTextTwo>
+            <DesctionTextOne>{text2}</DesctionTextOne>
+            <DesctionTextOne>{text3}</DesctionTextOne>
+            <DesctionTextOne>{text4}</DesctionTextOne>
+            <DesctionTextOne>{text5}</DesctionTextOne>
+            <DesctionTextOne>{text6}</DesctionTextOne>
+            <DesctionTextOne>{text7}</DesctionTextOne>
             <StaticImage
                 className="bg-line-shape"
                 src="../../data/images/shape/line5.png"
