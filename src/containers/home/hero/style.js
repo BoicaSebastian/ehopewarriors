@@ -16,6 +16,11 @@ export const HomeSliderItem = styled.div`
             max-width: 1397px;
         }
     }
+    @media (min-width: 1900px) {
+        .home-gif-img {
+            width: 130% !important;
+        }
+    }
     ${device.medium} {
         height: 500px;
         padding-top: 30px;
