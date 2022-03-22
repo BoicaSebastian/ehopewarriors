@@ -25,6 +25,7 @@ import {
     CloseAction,
     ButtonClose,
 } from "./style";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 
 const Header = () => {
     const allmenuData = useStaticQuery(graphql`
@@ -46,6 +47,7 @@ const Header = () => {
         }
     `);
     const menuData = allmenuData.allMenuJson.edges;
+    const { t } = useTranslation();
 
     // Sticky Menu
     const [scroll, setScroll] = useState(0);
@@ -108,7 +110,7 @@ const Header = () => {
                                             path="/contact-us"
                                             color="gradient"
                                         >
-                                            Give Support{" "}
+                                            {t("mint")}{" "}
                                             <i className="flaticon-right-arrow"></i>
                                         </Button>
                                     </ButtonBoxArea>

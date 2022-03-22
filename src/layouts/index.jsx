@@ -9,7 +9,6 @@ import "@assets/css/icofont.css";
 import "@assets/css/bootstrap.css";
 import Header from "./header";
 import Footer from "./footer";
-import { useTranslation } from "react-i18next";
 import i18n from "./../i18n";
 import { DropdownButton, Dropdown, Container } from "react-bootstrap";
 import { useState } from "react";
@@ -17,7 +16,6 @@ import ReactCountryFlag from "react-country-flag";
 import { SocialIcon } from "react-social-icons";
 
 const Layout = ({ children }) => {
-    // const { t } = useTranslation();
     const [langSelected, setLangSelected] = useState("EN");
     const [flag, setFlag] = useState("GB");
     const changeLanguage = (lng) => {

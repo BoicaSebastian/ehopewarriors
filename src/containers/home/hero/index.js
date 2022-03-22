@@ -17,7 +17,7 @@ import {
     DonateCircleWrap,
     DonateContent,
 } from "./style";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 import SliderImg from "@assets/images/homepage/slider-image.gif";
 
 const Hero = () => {
@@ -88,7 +88,7 @@ const Hero = () => {
                                         src="../../../data/images/icons/1.png"
                                         alt="Givest"
                                     />
-                                    <h6>{subTitle}</h6>
+                                    <h6>{t("be_a_hero")}</h6>
                                 </SubTitle>
                                 <HeroTitleWrap>
                                     <h1
@@ -171,7 +171,7 @@ const Hero = () => {
                                     <div className="pie-chart-circle"></div>
                                     <DonateContent>
                                         <div className="raised-amount">
-                                            $865M
+                                            10.000
                                         </div>
                                         <StaticImage
                                             className="line-shape-img"
@@ -179,7 +179,7 @@ const Hero = () => {
                                             alt="Image-Givest"
                                         />
                                         <h5 className="donate-title">
-                                            Total Raised
+                                            {t("unique_nfts")}
                                         </h5>
                                     </DonateContent>
                                 </DonateCircleWrap>
