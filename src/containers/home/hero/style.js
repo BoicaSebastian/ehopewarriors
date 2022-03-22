@@ -29,7 +29,7 @@ export const HomeSliderItem = styled.div`
         padding-top: 124px;
     }
     ${device.xxlarge} {
-        height: 900px;
+        height: 700px;
     }
 `;
 export const Content = styled.div`
@@ -181,9 +181,6 @@ export const LayerStyle = styled.div`
         img {
             border-radius: 50%;
             max-width: none !important;
-            ${device.xxlarge} {
-                width: auto;
-            }
         }
         .shape-circle {
             border-radius: 50%;

@@ -215,6 +215,7 @@ export const GlobalCSS = () => {
                     color: ${theme.colors.text};
                     font-size: ${theme.fontSize.body};
                     background: ${theme.colors.white};
+                    overflow: hidden;
                 }
                 a {
                     transition: ${theme.transition};
@@ -370,6 +371,9 @@ export const GlobalCSS = () => {
                     width: 100%;
                     height: 100%;
                     text-indent: -99999px;
+                }
+                .home-team-wrapper .member-name {
+                    color: #fff;
                 }
             `}
         />

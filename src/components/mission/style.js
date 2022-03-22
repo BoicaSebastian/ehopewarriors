@@ -2,6 +2,8 @@ import styled, { themeGet, device } from "@theme/utils";
 
 export const ContentBoxItem = styled.div`
     background-color: #fc6539;
+    height: calc(100% - 5%);
+    margin-top: 20px;
     padding: 62px 25px 48px;
     position: relative;
     z-index: 1;
@@ -20,6 +22,13 @@ export const ContentBoxItem = styled.div`
     }
     &.bg-color2 {
         background-color: rgb(254, 164, 68);
+        margin-top: 20px;
+        height: calc(100% - 5%);
+    }
+    &.bg-color3 {
+        background-color: #fc6539;
+        margin-top: 20px;
+        height: calc(100% - 5%);
     }
 `;
 
