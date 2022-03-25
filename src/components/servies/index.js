@@ -13,7 +13,16 @@ import {
     ParText,
 } from "./style";
 
-const ServiceItem = ({ title, parText, slug, image, itemClassName }) => {
+const ServiceItem = ({
+    title,
+    parText,
+    roadmap1,
+    roadmap2,
+    roadmap3,
+    slug,
+    image,
+    itemClassName,
+}) => {
     const iconImg = getImage(image);
     return (
         <IconBoxitem className={`${itemClassName} mb-5`}>
@@ -35,11 +44,15 @@ const ServiceItem = ({ title, parText, slug, image, itemClassName }) => {
                     />
                 </SeparatorLine>
                 <ParText>{parText}</ParText>
+                <ParText>{roadmap1}</ParText>
+                <ParText>{roadmap2}</ParText>
+                <ParText>{roadmap3}</ParText>
                 <Button
                     path={`/services/${slug}`}
                     size="small"
                     variant="outlined"
                     color="light"
+                    className="services-btn"
                     sx={{ color: "#fff" }}
                 >
                     View Details{" "}

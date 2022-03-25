@@ -375,6 +375,10 @@ export const GlobalCSS = () => {
                 .home-team-wrapper .member-name {
                     color: #fff;
                 }
+                .services-btn {
+                    position: absolute !important;
+                    bottom: 40px;
+                }
             `}
         />
     );

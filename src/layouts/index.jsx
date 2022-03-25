@@ -15,6 +15,7 @@ import { useState, useEffect } from "react";
 import ReactCountryFlag from "react-country-flag";
 import { SocialIcon } from "react-social-icons";
 import { useI18next } from "gatsby-plugin-react-i18next";
+import { graphql } from "gatsby";
 
 const Layout = ({ children }) => {
     const { languages, changeLanguage } = useI18next();
@@ -84,45 +85,6 @@ const Layout = ({ children }) => {
                                         ))}
                                     </DropdownButton>
                                 </div>
-                                {/* <div className="inline-top-header">
-                                <div className="inline-top-header">
-                                    <DropdownButton
-                                        id="dropdown-item-button"
-                                        title={langSelected}
-                                        style={{ zIndex: "9999" }}
-                                    >
-                                        <Dropdown.Item
-                                            as="button"
-                                            onClick={() => changeLanguage("en")}
-                                        >
-                                            <ReactCountryFlag
-                                                countryCode="GB"
-                                                svg
-                                                style={{
-                                                    width: "2em",
-                                                    height: "2em",
-                                                    marginRight: "10px",
-                                                }}
-                                            />
-                                            EN
-                                        </Dropdown.Item>
-                                        <Dropdown.Item
-                                            as="button"
-                                            onClick={() => changeLanguage("ro")}
-                                        >
-                                            <ReactCountryFlag
-                                                countryCode="RO"
-                                                svg
-                                                style={{
-                                                    width: "2em",
-                                                    height: "2em",
-                                                    marginRight: "10px",
-                                                }}
-                                            />
-                                            RO
-                                        </Dropdown.Item>
-                                    </DropdownButton>
-                                </div> */}
                             </div>
                             <div className="inline-top-header float-header">
                                 <SocialIcon

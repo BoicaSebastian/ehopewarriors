@@ -2,22 +2,26 @@ import styled, { themeGet, device } from "@theme/utils";
 
 export const IconBoxitem = styled.div`
     background: ${themeGet("colors.primary")};
-    padding: 45px 25px;
-    margin-bottom: 30px;
+    padding: 125px 25px;
+    margin-bottom: 50px;
+    height: 100%;
+    position: relative;
     &.item-two {
         background-color: #001d23;
+        position: relative;
     }
     &.item-three {
         background-color: #fea444;
+        position: relative;
     }
     ${device.medium} {
-        padding: 45px 25px;
+        padding: 100px 25px;
     }
     ${device.large} {
-        padding: 45px 25px;
+        padding: 100px 25px;
     }
     ${device.xlarge} {
-        padding: 52px 47px 44px 58px;
+        padding: 52px 47px 84px 58px;
     }
 `;
 
@@ -88,5 +92,5 @@ export const SeparatorLine = styled.div`
 export const ParText = styled.p`
     color: #feece7;
     line-height: 1.667;
-    margin-bottom: 32px;
+    margin-bottom: 15px;
 `;

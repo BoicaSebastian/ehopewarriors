@@ -80,7 +80,7 @@ const Hero = () => {
         <Section>
             <HomeSliderItem>
                 <Container>
-                    <Row className="asd">
+                    <Row>
                         <Col md={6} lg={6} xl={7}>
                             <Content>
                                 <SubTitle>
