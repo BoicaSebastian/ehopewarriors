@@ -19,7 +19,11 @@ const ServiceItem = ({ title, parText, slug, image, itemClassName }) => {
         <IconBoxitem className={`${itemClassName} mb-5`}>
             <IconBoxTop>
                 <IconBox>
-                    <GatsbyImage class="services-icon" image={iconImg} alt="" />
+                    <GatsbyImage
+                        className="services-icon"
+                        image={iconImg}
+                        alt=""
+                    />
                 </IconBox>
                 <Title>{title}</Title>
             </IconBoxTop>

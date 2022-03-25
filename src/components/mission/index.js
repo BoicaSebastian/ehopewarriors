@@ -22,11 +22,6 @@ const MissionBox = ({
     return (
         <ContentBoxItem className={`${VerientClassName}`}>
             <Title>{title}</Title>
-            <StaticImage
-                className="img-line-shape"
-                src="../../data/images/shape/line-s1.png"
-                alt="Image-Givest"
-            />
             <DesctionTextOne>{text1}</DesctionTextOne>
             <DesctionTextOne>{text2}</DesctionTextOne>
             <DesctionTextOne>{text3}</DesctionTextOne>
@@ -34,11 +29,6 @@ const MissionBox = ({
             <DesctionTextOne>{text5}</DesctionTextOne>
             <DesctionTextOne>{text6}</DesctionTextOne>
             <DesctionTextOne>{text7}</DesctionTextOne>
-            <StaticImage
-                className="bg-line-shape"
-                src="../../data/images/shape/line5.png"
-                alt="Image-Givest"
-            />
         </ContentBoxItem>
     );
 };

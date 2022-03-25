@@ -60,7 +60,7 @@ const CausesItem = ({
                         <Link to={`/causes/${slug}`}>
                             <UserAdminImg>
                                 <GatsbyImage
-                                    class="cause-icon"
+                                    className="cause-icon"
                                     image={adminImg}
                                     alt="Icon"
                                 />
