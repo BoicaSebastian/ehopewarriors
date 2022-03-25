@@ -10,11 +10,17 @@ import TestimonialArea from "../containers/home/testimonial";
 import SponsorsArea from "../containers/home/sponsors";
 import TeamArea from "../containers/volunteer/team";
 import "./../i18n";
+import { graphql } from "gatsby";
+import { Trans, useTranslation } from "gatsby-plugin-react-i18next";
 
 const IndexPage = () => {
+    const { t } = useTranslation();
     return (
         <Layout>
             <SEO title="Home" pathname="/" />
+            <p>
+                <Trans>be_a_hero</Trans>
+            </p>
             <Hero />
             <ServiceArea />
             <AboutArea />
@@ -30,3 +36,16 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
+export const query = graphql`
+    query ($language: String!) {
+        locales: allLocale(filter: { language: { eq: $language } }) {
+            edges {
+                node {
+                    ns
+                    data
+                    language
+                }
+            }
+        }
+    }
+`;

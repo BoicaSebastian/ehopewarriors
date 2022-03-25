@@ -11,23 +11,29 @@ import Header from "./header";
 import Footer from "./footer";
 import i18n from "./../i18n";
 import { DropdownButton, Dropdown, Container } from "react-bootstrap";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ReactCountryFlag from "react-country-flag";
 import { SocialIcon } from "react-social-icons";
+import { useI18next } from "gatsby-plugin-react-i18next";
 
 const Layout = ({ children }) => {
+    const { languages, changeLanguage } = useI18next();
+
     const [langSelected, setLangSelected] = useState("EN");
     const [flag, setFlag] = useState("GB");
-    const changeLanguage = (lng) => {
-        i18n.changeLanguage(lng);
-        const langUpperCase = lng.toUpperCase();
-        setLangSelected(langUpperCase);
-        if (lng == "en") {
-            setFlag("GB");
-        } else {
+    const [linkUrl, setLinkUrl] = useState("");
+
+    useEffect(() => {
+        setLinkUrl(window.location.pathname);
+        if (linkUrl.includes("ro")) {
             setFlag("RO");
+            setLangSelected("RO");
+        } else {
+            setFlag("GB");
+            setLangSelected("EN");
         }
-    };
+    });
+
     return (
         <div>
             <ThemeProvider theme={theme}>
@@ -50,7 +56,40 @@ const Layout = ({ children }) => {
                                     <DropdownButton
                                         id="dropdown-item-button"
                                         title={langSelected}
-                                        style={{ "z-index": "9999" }}
+                                        style={{ zIndex: "9999" }}
+                                    >
+                                        {languages.map((lng) => (
+                                            <Dropdown.Item
+                                                key={lng}
+                                                as="button"
+                                                onClick={() => {
+                                                    changeLanguage(lng);
+                                                }}
+                                            >
+                                                <ReactCountryFlag
+                                                    countryCode={
+                                                        lng === "en"
+                                                            ? "GB"
+                                                            : "RO"
+                                                    }
+                                                    svg
+                                                    style={{
+                                                        width: "2em",
+                                                        height: "2em",
+                                                        marginRight: "10px",
+                                                    }}
+                                                />
+                                                {lng.toUpperCase()}
+                                            </Dropdown.Item>
+                                        ))}
+                                    </DropdownButton>
+                                </div>
+                                {/* <div className="inline-top-header">
+                                <div className="inline-top-header">
+                                    <DropdownButton
+                                        id="dropdown-item-button"
+                                        title={langSelected}
+                                        style={{ zIndex: "9999" }}
                                     >
                                         <Dropdown.Item
                                             as="button"
@@ -83,7 +122,7 @@ const Layout = ({ children }) => {
                                             RO
                                         </Dropdown.Item>
                                     </DropdownButton>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="inline-top-header float-header">
                                 <SocialIcon
@@ -124,3 +163,16 @@ Layout.propTypes = {
 };
 
 export default Layout;
+export const query = graphql`
+    query ($language: String!) {
+        locales: allLocale(filter: { language: { eq: $language } }) {
+            edges {
+                node {
+                    ns
+                    data
+                    language
+                }
+            }
+        }
+    }
+`;
