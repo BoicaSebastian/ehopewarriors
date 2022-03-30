@@ -25,16 +25,16 @@ const ServicesPosts = ({ data, location, pageContext }) => {
 
     return (
         <Layout>
-            <SEO title={"Sevices Details"} pathname="/" />
+            <SEO title={servicesPostData.title} pathname="/" />
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
-                title="Sevices Details"
+                title={servicesPostData.title}
             />
             <ServicesDetailsArea>
                 <Container>
                     <Row>
-                        <Col lg={8}>
+                        <Col lg={12}>
                             <ServicesDetailsContent>
                                 <ServicesDetails>
                                     <Thumb>
@@ -48,44 +48,35 @@ const ServicesPosts = ({ data, location, pageContext }) => {
                                     </ServicesTitle>
                                     <p>{servicesPostData.parText}</p>
                                     <p>
-                                        {servicesPostData && servicesPostData.destails1}
-                                    </p>
-                                    <Row>
-                                        <Col sm={6}>
-                                            <DocumentItem href="#">
-                                                <DocumentItemTitle>
-                                                    Summery.pdf
-                                                </DocumentItemTitle>
-                                                <StaticImage
-                                                    src="../../data/images/icons/file.png"
-                                                    alt="Icon"
-                                                />
-                                            </DocumentItem>
-                                        </Col>
-                                        <Col sm={6}>
-                                            <DocumentItem className="bgcolor-theme2"  href="#">
-                                                <DocumentItemTitle href="#">
-                                                    Documents.pdf
-                                                </DocumentItemTitle>
-                                                <StaticImage
-                                                    src="../../data/images/icons/file.png"
-                                                    alt="Icon"
-                                                />
-                                            </DocumentItem>
-                                        </Col>
-                                    </Row>
-                                    
-                                    <p>
-                                        {servicesPostData && servicesPostData.destails2}
+                                        {servicesPostData &&
+                                            servicesPostData.destails1}
                                     </p>
                                     <p>
-                                        {servicesPostData && servicesPostData.destails3}
+                                        {servicesPostData &&
+                                            servicesPostData.destails2}
+                                    </p>
+                                    <p>
+                                        {servicesPostData &&
+                                            servicesPostData.destails3}
+                                    </p>
+                                    <p>
+                                        {servicesPostData &&
+                                            servicesPostData.destails4}
+                                    </p>
+                                    <p>
+                                        {servicesPostData &&
+                                            servicesPostData.destails5}
+                                    </p>
+                                    <p>
+                                        {servicesPostData &&
+                                            servicesPostData.destails6}
+                                    </p>
+                                    <p>
+                                        {servicesPostData &&
+                                            servicesPostData.destails7}
                                     </p>
                                 </ServicesDetails>
                             </ServicesDetailsContent>
-                        </Col>
-                        <Col lg={4}>
-                            <BlogSidebar />
                         </Col>
                     </Row>
                 </Container>
@@ -110,6 +101,10 @@ export const servicesPostsQuery = graphql`
             destails1
             destails2
             destails3
+            destails4
+            destails5
+            destails6
+            destails7
             image {
                 childImageSharp {
                     gatsbyImageData(width: 780)

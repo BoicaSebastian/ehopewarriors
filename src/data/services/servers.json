@@ -1,8 +1,12 @@
 [
     {
-        "destails1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
-        "destails2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "destails3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "destails1": "- The elements such as surgery, chemotherapy, radiotherapy, the hairless period will keep the chronology and proportion from reality.",
+        "destails2": "- Each artwork is original and completely hand drawn with its own color palette according to the toys, clothes, and medical items that Matti uses.",
+        "destails3": "- One time collection with this story.",
+        "destails4": "- The collection also has 55 very rare pieces specially designed, one for each week of cnad Matti fights this disease.",
+        "destails5": "Own the full commercial rights.",
+        "destails6": "When you purchase a eHOPEwarriors NFT, the art is totally and completely yours.",
+        "destails7": "- eHOPEwarriors are available as high resolution, 5,000px by 5,000px JPEGs. This allows you to print a high-quality physical copy of your NFT, display it in high res on a screen, and use it for large-scale print or display.",
         "iconImage": "../images/icons/s1.png",
         "image": "../images/causes/01.jpg",
         "itemClassName": "item-one",
@@ -10,13 +14,17 @@
         "title": "The Collection"
     },
     {
-        "destails1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
-        "destails2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        "destails3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "destails1": "- You will be able to bid or donate your NFT to the cases presented on our platform. we encourage you to do this and in time we will develop rewards for donors.",
+        "destails2": "- Perks offered by our current and future partnerships.",
+        "destails3": "- Discount on the next collection inspired by children with this disease from all over the world-whitelist spot to the collections of our partners.",
+        "destails4": "- Whitelist spot to the collections of our partners.",
+        "destails5": "- As a eHOPEwarriors NFT holder, you'll be eligible for future airdrops of tokens, nfts and other prizes.",
+        "destails6": "- Give back to the community through airdrops and rewards.",
+        "destails7": "- More to come.",
         "iconImage": "../images/icons/s2.png",
         "image": "../images/causes/02.jpg",
         "itemClassName": "item-two",
-        "parText": "Satisfaction that you are involved in a community where the lives of many little cancer patients will have a different path.",
+        "parText": "- Satisfaction that you are involved in a community where the lives of many little cancer patients will have a different path.",
         "title": "Holder benefits"
     },
     {
