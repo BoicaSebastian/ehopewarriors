@@ -5,7 +5,6 @@ import Hero from "@containers/home/hero";
 import ServiceArea from "@containers/home/services";
 import Faq from "@containers/home/faq";
 import FunfactArea from "../containers/home/funfact";
-import TestimonialArea from "../containers/home/testimonial";
 import SponsorsArea from "../containers/home/sponsors";
 import TeamArea from "../containers/volunteer/team";
 import "./../i18n";
@@ -22,7 +21,6 @@ const IndexPage = () => {
             </div>
             <SponsorsArea />
             <Faq />
-            {/* <TestimonialArea /> */}
             <FunfactArea />
         </Layout>
     );
