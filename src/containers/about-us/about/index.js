@@ -89,7 +89,7 @@ const AboutPageArea = () => {
                     <Col lg={8} xl={8}>
                         <AboutContent>
                             <AboutTextStyle>
-                                {t("about_us_our_story_title")}
+                                <p>{t("about_us_our_story_title")}</p>
                             </AboutTextStyle>
                             <p>{content2}</p>
                             <p>{content3}</p>
