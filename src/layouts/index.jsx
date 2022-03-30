@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
 
     useEffect(() => {
         setLinkUrl(window.location.pathname);
-        if (linkUrl.includes("ro")) {
+        if (linkUrl.includes("/ro")) {
             setFlag("RO");
             setLangSelected("RO");
         } else {
