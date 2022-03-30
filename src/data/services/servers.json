@@ -24,7 +24,7 @@
         "iconImage": "../images/icons/s2.png",
         "image": "../images/causes/02.jpg",
         "itemClassName": "item-two",
-        "parText": "- Satisfaction that you are involved in a community where the lives of many little cancer patients will have a different path.",
+        "parText": "Satisfaction that you are involved in a community where the lives of many little cancer patients will have a different path.",
         "title": "Holder benefits"
     },
     {
@@ -34,9 +34,9 @@
         "iconImage": "../images/icons/s3.png",
         "image": "../images/causes/03.jpg",
         "itemClassName": "item-three",
-        "roadmap1": "- idea and concept",
-        "roadmap2": "- technical research -team gathering",
-        "roadmap3": "- website development",
+        "roadmap1": "Idea and concept",
+        "roadmap2": "Technical research -team gathering",
+        "roadmap3": "Website development",
         "title": "Our roadmap"
     }
 ]
