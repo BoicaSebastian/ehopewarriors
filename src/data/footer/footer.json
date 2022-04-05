@@ -1,10 +1,8 @@
 [
     {
-        "footerAbout": "Lorem Ipsum is simply dummy text of the industry orem Ipsum has been the industry's since the when unknown.",
-        "raisedAmount": "$8,965",
-        "galleryTitle": "Gallery",
+        "footerAbout1": "Join the HOPE army.",
+        "footerAbout2": "Be a Warrior for children battling cancer.",
         "footerShapeImage": "../../data/images/shape/footer-line.png",
-        "menuTitle": "Quick Links",
         "gallery": [
             {
                 "galleryitem": "../../data/images/photos/gallery1.jpg",
@@ -31,57 +29,60 @@
                 "path": "/"
             }
         ],
+        "galleryTitle": "Gallery",
+        "menuTitle": "Quick Links",
         "quickLink": [
             {
-                "text": "About Us",
-                "path": "/about-us"
+                "path": "/about-us",
+                "text": "About Us"
             },
             {
-                "text": "Blog Post Terms",
-                "path": "/blog"
+                "path": "/blog",
+                "text": "Blog Post Terms"
             },
             {
-                "text": "Conditions",
-                "path": "/"
+                "path": "/",
+                "text": "Conditions"
             },
             {
-                "text": "Privacy Policy",
-                "path": "/"
+                "path": "/",
+                "text": "Privacy Policy"
             },
             {
-                "text": "Documentation",
-                "path": "/"
+                "path": "/",
+                "text": "Documentation"
             },
             {
-                "text": "Donners",
-                "path": "/"
+                "path": "/",
+                "text": "Donners"
             }
         ],
         "quickLinkTwo": [
             {
-                "text": "Become Volunteer",
-                "path": "/volunteer"
+                "path": "/volunteer",
+                "text": "Become Volunteer"
             },
             {
-                "text": "Quick Fundraise",
-                "path": "/"
+                "path": "/",
+                "text": "Quick Fundraise"
             },
             {
-                "text": "Give Donation",
-                "path": "/donate"
+                "path": "/donate",
+                "text": "Give Donation"
             },
             {
-                "text": "Become Volunteer",
-                "path": "/volunteer"
+                "path": "/volunteer",
+                "text": "Become Volunteer"
             },
             {
-                "text": "Food And Water",
-                "path": "/"
+                "path": "/",
+                "text": "Food And Water"
             },
             {
-                "text": "Medical facilities",
-                "path": "/"
+                "path": "/",
+                "text": "Medical facilities"
             }
-        ]
+        ],
+        "raisedAmount": "$- --"
     }
 ]

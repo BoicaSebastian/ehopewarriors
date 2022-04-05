@@ -4,7 +4,7 @@ import HeartIcon from "@assets/images/svg/heart.svg";
 import { Col, Container, Row } from "react-bootstrap";
 import Logo from "@components/logo";
 import { graphql, useStaticQuery, Link } from "gatsby";
-import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image"
+import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
 import {
     FooterWrap,
     FooterMain,
@@ -21,7 +21,7 @@ import {
     WidgetMenuWrap,
     NavMenu,
     NavItem,
-    FooterShapeLayer
+    FooterShapeLayer,
 } from "./style";
 
 const Footer = () => {
@@ -50,14 +50,25 @@ const Footer = () => {
                         gatsbyImageData
                     }
                 }
-                footerAbout
+                footerAbout1
+                footerAbout2
                 raisedAmount
                 menuTitle
                 galleryTitle
             }
         }
-    `)
-    const { footerAbout, raisedAmount, menuTitle, galleryTitle, gallery, quickLink, quickLinkTwo, footerShapeImage } = footerQuery.footerJson;
+    `);
+    const {
+        footerAbout1,
+        footerAbout2,
+        raisedAmount,
+        menuTitle,
+        galleryTitle,
+        gallery,
+        quickLink,
+        quickLinkTwo,
+        footerShapeImage,
+    } = footerQuery.footerJson;
     const footerimage = getImage(footerShapeImage);
     return (
         <FooterWrap>
@@ -69,12 +80,12 @@ const Footer = () => {
                                 <AboutWidget>
                                     <Logo className="footer-logo" />
                                     <AboutWidgetText>
-                                        {footerAbout}
+                                        {footerAbout1}
+                                        <br />
+                                        {footerAbout2}
                                     </AboutWidgetText>
                                     <WidgetTotalRaised>
-                                        <RaisedTitle>
-                                            Total Raised:
-                                        </RaisedTitle>
+                                        <RaisedTitle>Total Raised:</RaisedTitle>
                                         <TaisedAmount>
                                             {raisedAmount}
                                         </TaisedAmount>
@@ -88,15 +99,25 @@ const Footer = () => {
                                 <WidgetGallery>
                                     <Row className="row-cols-3 row-gutter-10">
                                         {gallery.map((item, i) => {
-                                            const imageGallery = getImage(item.galleryitem)
+                                            const imageGallery = getImage(
+                                                item.galleryitem
+                                            );
                                             return (
                                                 <Col key={`gallery-${i}`}>
                                                     <GalleryItem>
-                                                        <GatsbyImage image={imageGallery} alt="Givest-HasTech" />
-                                                        <a className="icon" href="#!"><i className="icofont-instagram"></i></a>
+                                                        <GatsbyImage
+                                                            image={imageGallery}
+                                                            alt="Givest-HasTech"
+                                                        />
+                                                        <a
+                                                            className="icon"
+                                                            href="#!"
+                                                        >
+                                                            <i className="icofont-instagram"></i>
+                                                        </a>
                                                     </GalleryItem>
                                                 </Col>
-                                            )
+                                            );
                                         })}
                                     </Row>
                                 </WidgetGallery>
@@ -107,26 +128,55 @@ const Footer = () => {
                                 <WidgetTitle>{menuTitle}</WidgetTitle>
                                 <WidgetMenuWrap>
                                     <Row>
-                                        <Col xs={6} sm={6} md={6} className="pr-sm-5">
+                                        <Col
+                                            xs={6}
+                                            sm={6}
+                                            md={6}
+                                            className="pr-sm-5"
+                                        >
                                             <NavMenu>
-                                                {quickLink.map((linkItem, i) => (
-                                                    <NavItem key={`id-${i}-one`}>
-                                                        <Link to={linkItem.path}>{linkItem.text}</Link>
-                                                    </NavItem>
-                                                ))}
+                                                {quickLink.map(
+                                                    (linkItem, i) => (
+                                                        <NavItem
+                                                            key={`id-${i}-one`}
+                                                        >
+                                                            <Link
+                                                                to={
+                                                                    linkItem.path
+                                                                }
+                                                            >
+                                                                {linkItem.text}
+                                                            </Link>
+                                                        </NavItem>
+                                                    )
+                                                )}
                                             </NavMenu>
                                         </Col>
 
-                                        <Col xs={6} sm={6} md={6} className="col-6 pl-sm-5">
+                                        <Col
+                                            xs={6}
+                                            sm={6}
+                                            md={6}
+                                            className="col-6 pl-sm-5"
+                                        >
                                             <NavMenu className="align-right">
-                                                {quickLinkTwo.map((linkItem, i) => (
-                                                    <NavItem key={`id-${i}`}>
-                                                        <Link to={linkItem.path}>{linkItem.text}</Link>
-                                                    </NavItem>
-                                                ))}
+                                                {quickLinkTwo.map(
+                                                    (linkItem, i) => (
+                                                        <NavItem
+                                                            key={`id-${i}`}
+                                                        >
+                                                            <Link
+                                                                to={
+                                                                    linkItem.path
+                                                                }
+                                                            >
+                                                                {linkItem.text}
+                                                            </Link>
+                                                        </NavItem>
+                                                    )
+                                                )}
                                             </NavMenu>
                                         </Col>
-
                                     </Row>
                                 </WidgetMenuWrap>
                             </WidgetItem>
@@ -139,8 +189,8 @@ const Footer = () => {
                 <Row>
                     <Col sx={{ textAlign: "center" }}>
                         <CopyrightText>
-                            &copy; {new Date().getFullYear()} Givest. Made
-                            with <HeartIcon /> by{" "}
+                            &copy; {new Date().getFullYear()} Givest. Made with{" "}
+                            <HeartIcon /> by{" "}
                             <a
                                 href="https://hasthemes.com/"
                                 target="_blank"
@@ -155,7 +205,7 @@ const Footer = () => {
             <FooterShapeLayer>
                 <GatsbyImage image={footerimage} alt="Image-Givest" />
             </FooterShapeLayer>
-        </FooterWrap >
+        </FooterWrap>
     );
 };
 

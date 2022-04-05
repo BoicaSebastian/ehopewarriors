@@ -1,23 +1,23 @@
 [
     {
-        "countNumber": 520,
         "countAmount": "K",
+        "countNumber": 30,
         "iconImage": "../../data/images/icons/f1.png",
         "shapImage": "../../data/images/shape/4.png",
-        "title": "POOR PEOPLE"
+        "title": "ON TELEGRAM"
     },
     {
-        "countNumber": 897,
-        "countAmount": "M",
+        "countAmount": "K",
+        "countNumber": 10,
         "iconImage": "../../data/images/icons/f1.png",
         "shapImage": "../../data/images/shape/4.png",
-        "title": "FUND RAISED"
+        "title": "UNIQUE NFTs"
     },
     {
-        "countNumber": 998,
         "countAmount": "+",
+        "countNumber": 100,
         "iconImage": "../../data/images/icons/f1.png",
         "shapImage": "../../data/images/shape/4.png",
-        "title": "ACTIVE MEMBER"
+        "title": "ACTIVE MEMBERS"
     }
 ]
