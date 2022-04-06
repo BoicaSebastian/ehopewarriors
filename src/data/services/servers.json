@@ -10,6 +10,7 @@
         "iconImage": "../images/icons/s1.png",
         "image": "../images/causes/first.png",
         "itemClassName": "item-one",
+        "link": "services/the-collection",
         "parText": "The collection was born and is inspired by the real story that Matti goes through with this cancer.",
         "title": "The Collection"
     },
@@ -24,6 +25,7 @@
         "iconImage": "../images/icons/s2.png",
         "image": "../images/causes/02.jpg",
         "itemClassName": "item-two",
+        "link": "services/holder-benefits",
         "parText": "Satisfaction that you are involved in a community where the lives of many little cancer patients will have a different path.",
         "title": "Holder benefits"
     },
@@ -34,6 +36,7 @@
         "iconImage": "../images/icons/s3.png",
         "image": "../images/causes/03.jpg",
         "itemClassName": "item-three",
+        "link": "/roadmap",
         "roadmap1": "Idea and concept",
         "roadmap2": "Technical research -team gathering",
         "roadmap3": "Website development",

@@ -2,7 +2,8 @@
 import { jsx } from "theme-ui";
 import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
 import PropTypes from "prop-types";
-import Button from "@components/ui/button";
+import { Link } from "gatsby";
+
 import {
     IconBoxitem,
     IconBoxTop,
@@ -22,6 +23,7 @@ const ServiceItem = ({
     slug,
     image,
     itemClassName,
+    link,
 }) => {
     const iconImg = getImage(image);
     return (
@@ -47,8 +49,8 @@ const ServiceItem = ({
                 <ParText>{roadmap1}</ParText>
                 <ParText>{roadmap2}</ParText>
                 <ParText>{roadmap3}</ParText>
-                <Button
-                    path={`/services/${slug}`}
+                <Link
+                    to={link}
                     size="small"
                     variant="outlined"
                     color="light"
@@ -57,7 +59,7 @@ const ServiceItem = ({
                 >
                     View Details{" "}
                     <i sx={{ ml: "8px" }} className="flaticon-right-arrow"></i>
-                </Button>
+                </Link>
             </ContentBox>
         </IconBoxitem>
     );

@@ -16,6 +16,7 @@ const ServiceArea = () => {
                         roadmap1
                         roadmap2
                         roadmap3
+                        link
                         itemClassName
                         iconImage {
                             childImageSharp {
@@ -47,6 +48,7 @@ const ServiceArea = () => {
                                     <ServiceItem
                                         title={data.node.title}
                                         parText={data.node.parText}
+                                        link={data.node.link}
                                         slug={data.node.fields.slug}
                                         itemClassName={data.node.itemClassName}
                                         image={data.node.iconImage}

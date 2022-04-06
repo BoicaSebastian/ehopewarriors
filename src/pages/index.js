@@ -16,11 +16,11 @@ const IndexPage = () => {
             <SEO title="Home" pathname="/" />
             <Hero />
             <ServiceArea />
+            <Faq />
+            <SponsorsArea />
             <div className="home-team-wrapper">
                 <TeamArea />
             </div>
-            <SponsorsArea />
-            <Faq />
             <FunfactArea />
         </Layout>
     );

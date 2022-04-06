@@ -54,7 +54,6 @@ const Button = ({
                 href={path}
                 {...buttonProps}
                 sx={sx}
-                target="_blank"
                 rel="noopener"
                 className={className}
             >
