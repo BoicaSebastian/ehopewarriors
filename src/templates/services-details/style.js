@@ -11,6 +11,19 @@ export const ServicesDetailsArea = styled.section`
     ${device.xlarge} {
         padding: 150px 0 390px;
     }
+    .services-before-line:before {
+        content: "";
+        width: 5px;
+        height: 25%;
+        background-color: #fc6e3b;
+        display: block;
+        position: absolute;
+        margin-left: -30px;
+    }
+
+    .services-image {
+        width: 80%;
+    }
 `;
 export const ServicesDetailsContent = styled.div`
     ${device.large} {

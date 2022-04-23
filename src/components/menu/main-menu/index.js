@@ -19,19 +19,6 @@ const MainMenu = ({ allmenuData }) => {
                             <Link activeClassName="active" to={menu.node.link}>
                                 {menu.node.text}
                             </Link>
-                            {submenu && (
-                                <ul className="submenu-nav">
-                                    {submenu.map((submenu, i) => {
-                                        return (
-                                            <Navitem key={`submenu${i}`}>
-                                                <Link to={submenu.link}>
-                                                    {submenu.text}
-                                                </Link>
-                                            </Navitem>
-                                        );
-                                    })}
-                                </ul>
-                            )}
                         </Navitem>
                     );
                 })}

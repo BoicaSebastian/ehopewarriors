@@ -34,49 +34,41 @@ const ServicesPosts = ({ data, location, pageContext }) => {
             <ServicesDetailsArea>
                 <Container>
                     <Row>
-                        <Col lg={12}>
-                            <ServicesDetailsContent>
-                                <ServicesDetails>
-                                    <Thumb>
-                                        <GatsbyImage
-                                            image={image}
-                                            alt={servicesPostData.title}
-                                        />
-                                    </Thumb>
-                                    <ServicesTitle>
-                                        {servicesPostData.title}
-                                    </ServicesTitle>
-                                    <p>{servicesPostData.parText}</p>
-                                    <p>
-                                        {servicesPostData &&
-                                            servicesPostData.destails1}
-                                    </p>
-                                    <p>
-                                        {servicesPostData &&
-                                            servicesPostData.destails2}
-                                    </p>
-                                    <p>
-                                        {servicesPostData &&
-                                            servicesPostData.destails3}
-                                    </p>
-                                    <p>
-                                        {servicesPostData &&
-                                            servicesPostData.destails4}
-                                    </p>
-                                    <p>
-                                        {servicesPostData &&
-                                            servicesPostData.destails5}
-                                    </p>
-                                    <p>
-                                        {servicesPostData &&
-                                            servicesPostData.destails6}
-                                    </p>
-                                    <p>
-                                        {servicesPostData &&
-                                            servicesPostData.destails7}
-                                    </p>
-                                </ServicesDetails>
-                            </ServicesDetailsContent>
+                        <Col lg={4}>
+                            <ServicesTitle>
+                                {servicesPostData.title}
+                            </ServicesTitle>
+                            <Thumb>
+                                <GatsbyImage
+                                    image={image}
+                                    alt={servicesPostData.title}
+                                    className="services-image"
+                                />
+                            </Thumb>
+                        </Col>
+                        <Col lg={8} className="services-before-line">
+                            <p>{servicesPostData.parText}</p>
+                            <p>
+                                {servicesPostData && servicesPostData.destails1}
+                            </p>
+                            <p>
+                                {servicesPostData && servicesPostData.destails2}
+                            </p>
+                            <p>
+                                {servicesPostData && servicesPostData.destails3}
+                            </p>
+                            <p>
+                                {servicesPostData && servicesPostData.destails4}
+                            </p>
+                            <p>
+                                {servicesPostData && servicesPostData.destails5}
+                            </p>
+                            <p>
+                                {servicesPostData && servicesPostData.destails6}
+                            </p>
+                            <p>
+                                {servicesPostData && servicesPostData.destails7}
+                            </p>
                         </Col>
                     </Row>
                 </Container>
