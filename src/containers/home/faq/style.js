@@ -21,7 +21,7 @@ export const SectionArea = styled.section`
         box-shadow: none !important;
     }
     .accordion-button:not(.collapsed) {
-        background-color: #fea2447d;
+        background-color: #fff;
         color: #ee6539;
         font-size: 15px;
     }
