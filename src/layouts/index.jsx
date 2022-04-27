@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
             <ThemeProvider theme={theme}>
                 <div className="wrapper">
                     <GlobalCSS />
-                    <div className="top-header">
+                    {/* <div className="top-header">
                         <Container>
                             <div className="inline-top-header">
                                 <div className="inline-top-header">
@@ -110,7 +110,7 @@ const Layout = ({ children }) => {
                                 />
                             </div>
                         </Container>
-                    </div>
+                    </div> */}
                     <Header />
                     {children}
                     <Footer />
