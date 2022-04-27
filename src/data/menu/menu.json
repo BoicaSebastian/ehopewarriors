@@ -10,21 +10,6 @@
         "text": "About"
     },
     {
-        "isSubmenu": true,
-        "link": "/causes",
-        "submenu": [
-            {
-                "link": "/causes",
-                "text": "Causes"
-            },
-            {
-                "link": "/causes/children-education-needs-for-change-the-world",
-                "text": "Causes Details"
-            }
-        ],
-        "text": "Causes"
-    },
-    {
         "isSubmenu": false,
         "link": "/roadmap",
         "text": "Roadmap"
