@@ -3,13 +3,23 @@
     padding: 5px 15px;
 }
 #roadmap .card-title {
-    font-size: 15px;
+    font-size: 20px;
+    padding: 15px;
 }
 #roadmap .card-description P {
-    font-size: 13px;
+    font-size: 15px;
 }
 #roadmap .show-more span {
     font-size: 13px;
+}
+#roadmap .timeline-card-content {
+    padding: 30px;
+    box-shadow: 0 3px 0 #f472414d;
+    border-radius: 20px;
+}
+#roadmap .using-icon {
+    width: 50px;
+    height: 50px;
 }
 
 .services-btn {

@@ -69,7 +69,6 @@ const AboutPageArea = () => {
                         <SectionTitle
                             sx={{ mb: "30px" }}
                             showImage={false}
-                            title={title}
                             subTitle={subTitle}
                         />
                     </Col>
@@ -89,7 +88,7 @@ const AboutPageArea = () => {
                     <Col lg={8} xl={8}>
                         <AboutContent>
                             <AboutTextStyle>
-                                <p>{t("about_us_our_story_title")}</p>
+                                <p>About our story life</p>
                             </AboutTextStyle>
                             <p>{content2}</p>
                             <p>{content3}</p>
