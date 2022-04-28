@@ -11,15 +11,16 @@ import {
     Designation,
 } from "./style";
 
-const Team = ({ name, designation, images }) => {
+const Team = ({ name, designation, images, instagram }) => {
     const imgs = getImage(images);
+    console.log(instagram, "name");
     return (
         <TeamMemberWrap>
             <Thumb className="thumb">
                 <GatsbyImage image={imgs} alt={name} />
                 <SocialIcons className="socialHover">
-                    <a href="#!">
-                        <i className="icofont-facebook"></i>
+                    <a href={instagram} target="_blank">
+                        <i className="icofont-instagram"></i>
                     </a>
                     <a href="#!">
                         <i className="icofont-linkedin"></i>
@@ -45,6 +46,7 @@ const Team = ({ name, designation, images }) => {
 
 Team.propTypes = {
     name: PropTypes.string,
+    instagram: PropTypes.string,
     designation: PropTypes.string,
     images: PropTypes.object,
 };

@@ -3,38 +3,44 @@
         "id": "volunteer-team",
         "section_title": {
             "subTitle": "Team",
-            "title": "Volunteer Team of Givest."
+            "title": "Volunteer Team of eHopeWarriors."
         },
         "team": [
             {
                 "designation": "Senior Volunteer",
-                "images": "../../data/images/team/doralin.png",
+                "images": "../../data/images/team/doralin.jpg",
+                "instagram": "https://www.instagram.com/doralintunasphotographer/",
                 "name": "Doralin Tunas"
             },
             {
-                "designation": "Senior Volunteer",
-                "images": "../../data/images/team/naomi.png",
-                "name": "Naomi Chira"
-            },
-            {
-                "designation": "Senior Volunteer",
-                "images": "../../data/images/team/Sebi.png",
-                "name": "Sebastian Boica"
-            },
-            {
-                "designation": "Senior Volunteer",
-                "images": "../../data/images/team/ligia.png",
+                "designation": "Social Media Manager",
+                "images": "../../data/images/team/ligia.jpg",
+                "instagram": "https://www.instagram.com/ligimuss/",
                 "name": "Ligia Popa"
             },
             {
-                "designation": "Senior Volunteer",
-                "images": "../../data/images/team/adrian.png",
+                "designation": "Web Developer",
+                "images": "../../data/images/team/sebi.png",
+                "instagram": "https://www.instagram.com/sebi_boica/",
+                "name": "Sebastian Boica"
+            },
+            {
+                "designation": "copywriter & content creator",
+                "images": "../../data/images/team/ana.jpg",
+                "instagram": "https://www.instagram.com/anamariaenache33/",
+                "name": "Ana Enache"
+            },
+            {
+                "designation": "Co-Founder & Comunity Manager",
+                "images": "../../data/images/team/adrian.jpg",
+                "instagram": "https://www.instagram.com/popadrian94/",
                 "name": "Adrian Popa"
             },
             {
-                "designation": "Senior Volunteer",
-                "images": "../../data/images/team/6.jpg",
-                "name": "Sherika Hankins"
+                "designation": "Volunteer",
+                "images": "../../data/images/team/naomi.jpg",
+                "instagram": "https://www.instagram.com/chira.naomi/",
+                "name": "Naomi Chira"
             }
         ],
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry's standard dummy text ever since and unknown printer took scrambled it make specimen book."

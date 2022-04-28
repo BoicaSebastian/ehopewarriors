@@ -19,6 +19,7 @@ const TeamArea = () => {
                 team {
                     designation
                     name
+                    instagram
                     images {
                         childrenImageSharp {
                             gatsbyImageData(width: 580)
@@ -58,6 +59,7 @@ const TeamArea = () => {
                                         <Team
                                             name={item.name}
                                             designation={item.designation}
+                                            instagram={item.instagram}
                                             images={
                                                 item.images
                                                     .childrenImageSharp[0]
