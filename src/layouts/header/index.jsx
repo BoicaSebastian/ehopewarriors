@@ -103,7 +103,7 @@ const Header = () => {
                                         <Button
                                             sx={{ ml: "15px" }}
                                             type="button"
-                                            path="/contact-us"
+                                            path="#"
                                             color="gradient"
                                         >
                                             {t("mint")}{" "}

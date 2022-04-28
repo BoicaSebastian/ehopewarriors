@@ -9,11 +9,11 @@
                 "path": "/"
             },
             {
-                "galleryitem": "../../data/images/photos/gallery2.jpg",
+                "galleryitem": "../../data/images/photos/gallery1.jpg",
                 "path": "/"
             },
             {
-                "galleryitem": "../../data/images/photos/gallery3.jpg",
+                "galleryitem": "../../data/images/photos/gallery1.jpg",
                 "path": "/"
             },
             {
@@ -37,8 +37,12 @@
                 "text": "About Us"
             },
             {
-                "path": "/blog",
-                "text": "Blog Post Terms"
+                "path": "/roadmap",
+                "text": "Roadmap"
+            },
+            {
+                "path": "/#team",
+                "text": "Our Team"
             },
             {
                 "path": "/",
@@ -47,40 +51,28 @@
             {
                 "path": "/",
                 "text": "Privacy Policy"
-            },
-            {
-                "path": "/",
-                "text": "Documentation"
-            },
-            {
-                "path": "/",
-                "text": "Donners"
             }
         ],
         "quickLinkTwo": [
             {
-                "path": "/volunteer",
-                "text": "Become Volunteer"
+                "path": "https://twitter.com/eHOPEwarriors",
+                "text": "Twitter"
             },
             {
-                "path": "/",
-                "text": "Quick Fundraise"
+                "path": "https://www.instagram.com/ehopewarriors/",
+                "text": "Instagram"
             },
             {
-                "path": "/donate",
-                "text": "Give Donation"
+                "path": "https://linktr.ee/ehopewarriors",
+                "text": "Telegram"
             },
             {
-                "path": "/volunteer",
-                "text": "Become Volunteer"
+                "path": "#",
+                "text": "Mint Now"
             },
             {
                 "path": "/",
                 "text": "Food And Water"
-            },
-            {
-                "path": "/",
-                "text": "Medical facilities"
             }
         ],
         "raisedAmount": "$- --"

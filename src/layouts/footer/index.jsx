@@ -169,6 +169,7 @@ const Footer = () => {
                                                                 to={
                                                                     linkItem.path
                                                                 }
+                                                                target="_blank"
                                                             >
                                                                 {linkItem.text}
                                                             </Link>
@@ -183,21 +184,13 @@ const Footer = () => {
                         </Col>
                     </Row>
                 </Container>
-                {/* <div className="scroll-to-top"><img src="assets/img/icons/arrow-up-line.png" alt="Icon-Image" /></div> */}
             </FooterMain>
             <Container>
                 <Row>
                     <Col sx={{ textAlign: "center" }}>
                         <CopyrightText>
-                            &copy; {new Date().getFullYear()} Givest. Made with{" "}
-                            <HeartIcon /> by{" "}
-                            <a
-                                href="https://hasthemes.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                HasThemes
-                            </a>
+                            &copy; {new Date().getFullYear()}. Made with{" "}
+                            <HeartIcon /> by eHopeWarriors development team.
                         </CopyrightText>
                     </Col>
                 </Row>
