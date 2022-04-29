@@ -20,7 +20,7 @@ const VolunteerArea = () => {
                 text
                 team {
                     designation
-                    name
+                    firstName
                     images {
                         childrenImageSharp {
                             gatsbyImageData(width: 580)

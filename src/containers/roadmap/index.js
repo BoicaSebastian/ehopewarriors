@@ -8,7 +8,7 @@ const Roadmap = () => {
     const items = [
         {
             cardTitle: "Until the launch of the collection",
-            cardDetailedText: `-idea and concept ⎷ \n\n
+            cardDetailedText: `-idea and concept ⎷ <br/>
                 -technical research ⎷\n
                 -team gathering ⎷\n
                 -website development ⎷\n

@@ -18,7 +18,8 @@ const TeamArea = () => {
                 text
                 team {
                     designation
-                    name
+                    firstName
+                    lastName
                     instagram
                     images {
                         childrenImageSharp {
@@ -57,7 +58,8 @@ const TeamArea = () => {
                                 return (
                                     <Col lg={2} key={i}>
                                         <Team
-                                            name={item.name}
+                                            firstName={item.firstName}
+                                            lastName={item.lastName}
                                             designation={item.designation}
                                             instagram={item.instagram}
                                             images={
