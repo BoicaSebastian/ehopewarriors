@@ -5,7 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Logo from "@components/logo";
 import { graphql, useStaticQuery, Link } from "gatsby";
 import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
-import InstagramEmbed from "react-instagram-embed";
+import { SocialIcon } from "react-social-icons";
 import {
     FooterWrap,
     FooterMain,
@@ -101,40 +101,61 @@ const Footer = () => {
                                 <WidgetTitle>{galleryTitle}</WidgetTitle>
                                 <WidgetGallery>
                                     <Row className="row-cols-3 row-gutter-10">
-                                        {/* <InstagramEmbed
+                                        <SocialIcon
+                                            network="twitter"
+                                            style={{
+                                                height: 35,
+                                                width: 35,
+                                                marginRight: "20px",
+                                            }}
+                                            bgColor="#fc6539"
+                                            url="https://twitter.com/eHOPEwarriors"
+                                            target="_blank"
+                                        />
+                                        <SocialIcon
+                                            network="facebook"
+                                            style={{
+                                                height: 35,
+                                                width: 35,
+                                                marginRight: "20px",
+                                            }}
+                                            bgColor="#fc6539"
+                                            url="https://www.facebook.com/eHOPEwarriors"
+                                            target="_blank"
+                                        />
+                                        <SocialIcon
+                                            network="instagram"
+                                            style={{
+                                                height: 35,
+                                                width: 35,
+                                                marginRight: "20px",
+                                            }}
+                                            bgColor="#fc6539"
                                             url="https://www.instagram.com/ehopewarriors/"
-                                            clientAccessToken="1357508664762723|IGQVJWMk1WZAlFfaG1MOEhVTW1Na3BfRkZAjRlVoUEFUVGU4UEFNdHl4bmxMT2VGeEliS1lqSWhXaXhIWlhmdmlXcFZAiRVAyS3V5NzFSTTYzRXN6M1NtdkRySWtGejktelM2bU5leGZAmRGtYbmsyYnpwYQZDZD"
-                                            maxWidth={320}
-                                            hideCaption={false}
-                                            containerTagName="div"
-                                            protocol=""
-                                            injectScript
-                                            onLoading={() => {}}
-                                            onSuccess={() => {}}
-                                            onAfterRender={() => {}}
-                                            onFailure={() => {}}
-                                        /> */}
-                                        {gallery.map((item, i) => {
-                                            const imageGallery = getImage(
-                                                item.galleryitem
-                                            );
-                                            return (
-                                                <Col key={`gallery-${i}`}>
-                                                    <GalleryItem>
-                                                        <GatsbyImage
-                                                            image={imageGallery}
-                                                            alt="eHopeWarriors-HasTech"
-                                                        />
-                                                        <a
-                                                            className="icon"
-                                                            href="#!"
-                                                        >
-                                                            <i className="icofont-instagram"></i>
-                                                        </a>
-                                                    </GalleryItem>
-                                                </Col>
-                                            );
-                                        })}
+                                            target="_blank"
+                                        />
+                                        <SocialIcon
+                                            network="telegram"
+                                            style={{
+                                                height: 35,
+                                                width: 35,
+                                                marginRight: "20px",
+                                            }}
+                                            bgColor="#fc6539"
+                                            url="https://linktr.ee/ehopewarriors"
+                                            target="_blank"
+                                        />
+                                        <SocialIcon
+                                            network="discord"
+                                            style={{
+                                                height: 35,
+                                                width: 35,
+                                                marginRight: "20px",
+                                            }}
+                                            bgColor="#fc6539"
+                                            url="https://discord.com/invite/HeSxDatxcp"
+                                            target="_blank"
+                                        />
                                     </Row>
                                 </WidgetGallery>
                             </WidgetItem>

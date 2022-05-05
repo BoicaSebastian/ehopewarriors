@@ -44,7 +44,11 @@ const SponsorsArea = () => {
                             title={"Our Current Partners and Sponsors."}
                         />
                     </Col>
-                    <Col xl={{ span: 7, offset: 1 }} lg={8}>
+                    <Col
+                        xl={{ span: 7, offset: 1 }}
+                        lg={8}
+                        className="d-flex align-items-center"
+                    >
                         <BrandLogoContent>
                             <Row className="row row-cols-3 row-cols-sm-5">
                                 {sponsorsData &&
@@ -54,6 +58,10 @@ const SponsorsArea = () => {
                                                 <a
                                                     href={item.node.link}
                                                     target="_blank"
+                                                    style={{
+                                                        display: "block",
+                                                        width: "125%",
+                                                    }}
                                                 >
                                                     <SponsorLogo
                                                         sponsorLogo={

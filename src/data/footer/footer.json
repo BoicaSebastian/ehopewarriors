@@ -29,7 +29,7 @@
                 "path": "/"
             }
         ],
-        "galleryTitle": "Gallery",
+        "galleryTitle": "Follow Us",
         "menuTitle": "Quick Links",
         "quickLink": [
             {
@@ -45,26 +45,18 @@
                 "text": "Our Team"
             },
             {
+                "path": "/services/the-collection",
+                "text": "The Collection"
+            }
+        ],
+        "quickLinkTwo": [
+            {
                 "path": "/",
                 "text": "Conditions"
             },
             {
                 "path": "/",
                 "text": "Privacy Policy"
-            }
-        ],
-        "quickLinkTwo": [
-            {
-                "path": "https://twitter.com/eHOPEwarriors",
-                "text": "Twitter"
-            },
-            {
-                "path": "https://www.instagram.com/ehopewarriors/",
-                "text": "Instagram"
-            },
-            {
-                "path": "https://linktr.ee/ehopewarriors",
-                "text": "Telegram"
             },
             {
                 "path": "#",

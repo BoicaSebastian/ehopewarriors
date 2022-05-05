@@ -18,7 +18,7 @@ const AboutUsPage = ({ location, pageContext }) => {
             />
             <AboutPageArea />
             <div style={{ textAlign: "center" }}>
-                <img src={Chart} width="70%" />
+                <img src={Chart} width="60%" />
             </div>
             <div className="home-team-wrapper">
                 <TeamArea />

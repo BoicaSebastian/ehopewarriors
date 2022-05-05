@@ -8,7 +8,7 @@
         "sponsorLogo": "../../data/images/brand-logo/2.png"
     },
     {
-        "link": "#",
+        "link": "https://twitter.com/NftAvocats",
         "sponsorLogo": "../../data/images/brand-logo/3.png"
     },
     {
@@ -16,27 +16,7 @@
         "sponsorLogo": "../../data/images/brand-logo/4.png"
     },
     {
-        "link": "#",
+        "link": "https://superrarebears.com/",
         "sponsorLogo": "../../data/images/brand-logo/5.png"
-    },
-    {
-        "link": "#",
-        "sponsorLogo": "../../data/images/brand-logo/6.png"
-    },
-    {
-        "link": "#",
-        "sponsorLogo": "../../data/images/brand-logo/7.png"
-    },
-    {
-        "link": "#",
-        "sponsorLogo": "../../data/images/brand-logo/8.png"
-    },
-    {
-        "link": "#",
-        "sponsorLogo": "../../data/images/brand-logo/9.png"
-    },
-    {
-        "link": "#",
-        "sponsorLogo": "../../data/images/brand-logo/10.png"
     }
 ]
