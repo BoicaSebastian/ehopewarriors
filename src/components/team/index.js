@@ -11,9 +11,16 @@ import {
     Designation,
 } from "./style";
 
-const Team = ({ firstName, lastName, designation, images, instagram }) => {
+const Team = ({
+    firstName,
+    lastName,
+    designation,
+    images,
+    instagram,
+    linkedin,
+    twitter,
+}) => {
     const imgs = getImage(images);
-    console.log(instagram, "name");
     return (
         <TeamMemberWrap>
             <Thumb className="thumb">
@@ -22,12 +29,16 @@ const Team = ({ firstName, lastName, designation, images, instagram }) => {
                     <a href={instagram} target="_blank">
                         <i className="icofont-instagram"></i>
                     </a>
-                    <a href="#!">
-                        <i className="icofont-linkedin"></i>
-                    </a>
-                    <a href="#!">
-                        <i className="icofont-twitter"></i>
-                    </a>
+                    {linkedin && (
+                        <a href={linkedin} target="_blank">
+                            <i className="icofont-linkedin"></i>
+                        </a>
+                    )}
+                    {twitter && (
+                        <a href={twitter} target="_blank">
+                            <i className="icofont-twitter"></i>
+                        </a>
+                    )}
                 </SocialIcons>
             </Thumb>
             <Content>

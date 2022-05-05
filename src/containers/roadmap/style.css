@@ -9,6 +9,9 @@
 #roadmap .card-description P {
     font-size: 15px;
 }
+#roadmap .card-description {
+    max-height: 100%;
+}
 #roadmap .show-more span {
     font-size: 13px;
 }
@@ -20,6 +23,9 @@
 #roadmap .using-icon {
     width: 50px;
     height: 50px;
+}
+#roadmap .e3ufu3w6 {
+    display: none;
 }
 
 .services-btn {
@@ -44,4 +50,12 @@
 .services-btn:hover {
     background: linear-gradient(to right, #fea444 0%, #fc6539 100%);
     color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    #roadmap .card-content-wrapper {
+        width: auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
 }

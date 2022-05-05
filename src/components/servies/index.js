@@ -42,7 +42,7 @@ const ServiceItem = ({
                 <SeparatorLine>
                     <StaticImage
                         src="../../data/images/shape/line-s1.png"
-                        alt="Givest-HasTech"
+                        alt="eHopeWarriors-HasTech"
                     />
                 </SeparatorLine>
                 <ParText>{parText}</ParText>

@@ -26,12 +26,12 @@ const FunfactItem = ({
                 <GatsbyImage
                     className="icon"
                     image={iconImg}
-                    alt="Image-Givest"
+                    alt="Image-eHopeWarriors"
                 />
                 <GatsbyImage
                     className="shape-img"
                     image={shapImg}
-                    alt="Image-Givest"
+                    alt="Image-eHopeWarriors"
                 />
             </IconBox>
             <FunFactContent>
@@ -47,7 +47,7 @@ const FunfactItem = ({
                 <StaticImage
                     className="line-shape"
                     src="../../data/images/shape/funfact-line1.png"
-                    alt="Image-Givest"
+                    alt="Image-eHopeWarriors"
                 />
                 <Title>
                     {"//"} {title}

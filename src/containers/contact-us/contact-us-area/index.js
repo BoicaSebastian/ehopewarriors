@@ -36,7 +36,7 @@ const ContactUsArea = () => {
                                             <StaticImage
                                                 className="icon-img"
                                                 src="../../../data/images/shape/line-s1.png"
-                                                alt="Image-Givest"
+                                                alt="Image-eHopeWarriors"
                                             />
                                             <a href="tel://+00569876458">
                                                 (00) 569 - 876 458
@@ -59,7 +59,7 @@ const ContactUsArea = () => {
                                             <StaticImage
                                                 className="icon-img"
                                                 src="../../../data/images/shape/line-s1.png"
-                                                alt="Image-Givest"
+                                                alt="Image-eHopeWarriors"
                                             />
                                             <a href="mailto://support@gmail.com">
                                                 support@gmail.com
@@ -82,7 +82,7 @@ const ContactUsArea = () => {
                                             <StaticImage
                                                 className="icon-img"
                                                 src="../../../data/images/shape/line-s1.png"
-                                                alt="Image-Givest"
+                                                alt="Image-eHopeWarriors"
                                             />
                                             <p>
                                                 Norwegian St #APT 807 <br />

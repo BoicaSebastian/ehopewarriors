@@ -1,32 +1,42 @@
 [
     {
+        "link": "https://unitedgroup.capital",
         "sponsorLogo": "../../data/images/brand-logo/1.png"
     },
     {
+        "link": "https://ofero.network/",
         "sponsorLogo": "../../data/images/brand-logo/2.png"
     },
     {
+        "link": "#",
         "sponsorLogo": "../../data/images/brand-logo/3.png"
     },
     {
+        "link": "https://www.spitalecurate.ro/",
         "sponsorLogo": "../../data/images/brand-logo/4.png"
     },
     {
+        "link": "#",
         "sponsorLogo": "../../data/images/brand-logo/5.png"
     },
     {
+        "link": "#",
         "sponsorLogo": "../../data/images/brand-logo/6.png"
     },
     {
+        "link": "#",
         "sponsorLogo": "../../data/images/brand-logo/7.png"
     },
     {
+        "link": "#",
         "sponsorLogo": "../../data/images/brand-logo/8.png"
     },
     {
+        "link": "#",
         "sponsorLogo": "../../data/images/brand-logo/9.png"
     },
     {
+        "link": "#",
         "sponsorLogo": "../../data/images/brand-logo/10.png"
     }
 ]

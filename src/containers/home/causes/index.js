@@ -52,7 +52,9 @@ const CausesArea = () => {
                             sx={{
                                 mb: ["30px", "50px", "80px", "110", "123px"],
                             }}
-                            title={"Donate For Poor People. Causes of Givest"}
+                            title={
+                                "Donate For Poor People. Causes of eHopeWarriors"
+                            }
                             subTitle={"Check Causes"}
                         />
                     </Col>

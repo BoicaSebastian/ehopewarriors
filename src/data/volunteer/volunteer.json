@@ -11,42 +11,54 @@
                 "firstName": "Doralin",
                 "images": "../../data/images/team/doralin.jpg",
                 "instagram": "https://www.instagram.com/doralintunasphotographer/",
-                "lastName": "Tunas"
-            },
-            {
-                "designation": "Social Media Manager",
-                "firstName": "Ligia",
-                "images": "../../data/images/team/ligia.jpg",
-                "instagram": "https://www.instagram.com/ligimuss/",
-                "lastName": "Popa"
-            },
-            {
-                "designation": "Web Developer",
-                "firstName": "Sebastian",
-                "images": "../../data/images/team/sebi.jpg",
-                "instagram": "https://www.instagram.com/sebi_boica/",
-                "lastName": "Boica"
-            },
-            {
-                "designation": "copywriter & content creator",
-                "firstName": "Ana",
-                "images": "../../data/images/team/ana.jpg",
-                "instagram": "https://www.instagram.com/anamariaenache33/",
-                "lastName": "Enache"
+                "lastName": "Tunas",
+                "linkedin": "",
+                "twitter": "https://twitter.com/DoralinTunas"
             },
             {
                 "designation": "Co-Founder & Comunity Manager",
                 "firstName": "Adrian",
                 "images": "../../data/images/team/adrian.jpg",
                 "instagram": "https://www.instagram.com/popadrian94/",
-                "lastName": "Popa"
+                "lastName": "Popa",
+                "linkedin": "",
+                "twitter": "https://twitter.com/fideluser"
+            },
+            {
+                "designation": "Web Developer",
+                "firstName": "Sebastian",
+                "images": "../../data/images/team/sebi.jpg",
+                "instagram": "https://www.instagram.com/sebi_boica/",
+                "lastName": "Boica",
+                "linkedin": "https://www.linkedin.com/in/boica-sebastian/",
+                "twitter": "https://twitter.com/BoicaSebastian"
+            },
+            {
+                "designation": "Social Media Manager",
+                "firstName": "Ligia",
+                "images": "../../data/images/team/ligia.jpg",
+                "instagram": "https://www.instagram.com/ligimuss/",
+                "lastName": "Popa",
+                "linkedin": "",
+                "twitter": ""
+            },
+            {
+                "designation": "copywriter & content creator",
+                "firstName": "Ana",
+                "images": "../../data/images/team/ana.jpg",
+                "instagram": "https://www.instagram.com/anamariaenache33/",
+                "lastName": "Enache",
+                "linkedin": "",
+                "twitter": ""
             },
             {
                 "designation": "Volunteer",
                 "firstName": "Naomi",
                 "images": "../../data/images/team/naomi.jpg",
                 "instagram": "https://www.instagram.com/chira.naomi/",
-                "lastName": "Chira"
+                "lastName": "Chira",
+                "linkedin": "",
+                "twitter": ""
             }
         ],
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry's standard dummy text ever since and unknown printer took scrambled it make specimen book."

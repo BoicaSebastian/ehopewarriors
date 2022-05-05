@@ -1,3 +1,3 @@
 /* eslint-disable prettier/prettier */
 
-export const account_link = "https://givest.com/account/";
+export const account_link = "https://ehopewarriors.com/account/";

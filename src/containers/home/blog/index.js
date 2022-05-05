@@ -46,7 +46,7 @@ const LatestBlog = () => {
                                 mb: ["30px", "50px", "80px", "110", "123px"],
                             }}
                             subTitle={"Blog Post"}
-                            title={"Latest News From Givest Blog"}
+                            title={"Latest News From eHopeWarriors Blog"}
                         />
                     </Col>
                 </Row>

@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 import FunfactArea from "../containers/home/funfact";
 import AboutPageArea from "../containers/about-us/about";
 import PageBreadcrumb from "../components/pagebreadcrumb";
-import VolunteerArea from "../containers/about-us/volunteer";
 import TeamArea from "../containers/volunteer/team";
+import Chart from "@data/images/about/chart.png";
 
 const AboutUsPage = ({ location, pageContext }) => {
     return (
@@ -17,7 +17,9 @@ const AboutUsPage = ({ location, pageContext }) => {
                 title="About Us"
             />
             <AboutPageArea />
-            {/* <VolunteerArea /> */}
+            <div style={{ textAlign: "center" }}>
+                <img src={Chart} width="70%" />
+            </div>
             <div className="home-team-wrapper">
                 <TeamArea />
             </div>

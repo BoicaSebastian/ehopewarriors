@@ -15,7 +15,7 @@ const BlogSidebar = () => {
                     <StaticImage
                         className="me-1"
                         src="../../../data/images/shape/line-t2.png"
-                        alt="Image-Givest"
+                        alt="Image-eHopeWarriors"
                     />
                 </SeparatorLine>
                 <SearchBox />
@@ -27,7 +27,7 @@ const BlogSidebar = () => {
                     <StaticImage
                         className="me-1"
                         src="../../../data/images/shape/line-t2.png"
-                        alt="Image-Givest"
+                        alt="Image-eHopeWarriors"
                     />
                 </SeparatorLine>
                 <AllCategories />
@@ -39,7 +39,7 @@ const BlogSidebar = () => {
                     <StaticImage
                         className="me-1"
                         src="../../../data/images/shape/line-t2.png"
-                        alt="Image-Givest"
+                        alt="Image-eHopeWarriors"
                     />
                 </SeparatorLine>
                 <UrgentCauses />
@@ -51,7 +51,7 @@ const BlogSidebar = () => {
                     <StaticImage
                         className="me-1"
                         src="../../../data/images/shape/line-t2.png"
-                        alt="Image-Givest"
+                        alt="Image-eHopeWarriors"
                     />
                 </SeparatorLine>
                 <AllTags />

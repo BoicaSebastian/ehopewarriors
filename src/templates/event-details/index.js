@@ -49,7 +49,7 @@ const EventPosts = ({ data, location, pageContext }) => {
                                     <Thumb>
                                         <GatsbyImage
                                             image={image}
-                                            alt="Image-Givest"
+                                            alt="Image-eHopeWarriors"
                                         />
                                     </Thumb>
                                     <EventTimeInfo>

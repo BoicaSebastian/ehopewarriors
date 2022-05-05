@@ -86,7 +86,7 @@ const Hero = () => {
                                 <SubTitle>
                                     <StaticImage
                                         src="../../../data/images/icons/1.png"
-                                        alt="Givest"
+                                        alt="eHopeWarriors"
                                     />
                                     <h6>{t("be_a_hero")}</h6>
                                 </SubTitle>
@@ -105,14 +105,18 @@ const Hero = () => {
                                         About us{" "}
                                         <i className="flaticon-right-arrow"></i>
                                     </Button>
-                                    <Button
-                                        path="#"
-                                        variant="outlined"
-                                        sx={{ ml: "10px" }}
+                                    <a
+                                        href="https://linktr.ee/ehopewarriors"
+                                        target="_blank"
                                     >
-                                        Mint Now{" "}
-                                        <i className="flaticon-right-arrow"></i>
-                                    </Button>
+                                        <Button
+                                            variant="outlined"
+                                            sx={{ ml: "10px" }}
+                                        >
+                                            Social Media{" "}
+                                            <i className="flaticon-right-arrow"></i>
+                                        </Button>
+                                    </a>
                                 </div>
                             </Content>
                         </Col>
@@ -176,7 +180,7 @@ const Hero = () => {
                                         <StaticImage
                                             className="line-shape-img"
                                             src="../../../data/images/shape/line-s2.png"
-                                            alt="Image-Givest"
+                                            alt="Image-eHopeWarriors"
                                         />
                                         <h5 className="donate-title">
                                             {t("unique_nfts")}

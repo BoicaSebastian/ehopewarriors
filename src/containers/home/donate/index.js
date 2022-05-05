@@ -86,7 +86,7 @@ const DonateArea = () => {
                                                 >
                                                     <GatsbyImage
                                                         image={img}
-                                                        alt="Image-Givest"
+                                                        alt="Image-eHopeWarriors"
                                                     />
                                                 </DonnerIem>
                                             );

@@ -31,7 +31,7 @@ const CausesDonateForm = () => {
                 <StaticImage
                     className="line-shape"
                     src="../../data/images/shape/line-t3.png"
-                    alt="Image-Givest"
+                    alt="Image-eHopeWarriors"
                 />
             </SectionTitle>
             <form action="#">
@@ -84,7 +84,7 @@ const CausesDonateForm = () => {
                         </PaymentType>
                         <StaticImage
                             src="../../data/images/photos/payment-card.png"
-                            alt="Image-Givest"
+                            alt="Image-eHopeWarriors"
                         />
                     </PaymentMethod>
                 </PaymentMethodWrap>
@@ -168,12 +168,12 @@ const CausesDonateForm = () => {
                 <StaticImage
                     className="layer-style1"
                     src="../../data/images/shape/form-shape1.png"
-                    alt="Image-Givest"
+                    alt="Image-eHopeWarriors"
                 />
                 <StaticImage
                     className="layer-style2"
                     src="../../data/images/shape/form-shape2.png"
-                    alt="Image-Givest"
+                    alt="Image-eHopeWarriors"
                 />
             </LayerStyle>
         </DonationFormArea>

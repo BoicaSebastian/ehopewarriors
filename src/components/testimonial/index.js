@@ -34,7 +34,7 @@ const TestimonialItem = ({
                 <StaticImage
                     className="shape-line-img"
                     src="../../data/images/shape/line-t1.png"
-                    alt="Image-Givest"
+                    alt="Image-eHopeWarriors"
                 />
                 <ClientName>{client}</ClientName>
                 <ClientDesignation>{clientDesignation}</ClientDesignation>

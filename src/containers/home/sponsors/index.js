@@ -18,6 +18,7 @@ const SponsorsArea = () => {
                                 gatsbyImageData
                             }
                         }
+                        link
                     }
                 }
             }
@@ -40,7 +41,7 @@ const SponsorsArea = () => {
                                 mb: ["30px", "50px", "60px", "60px", "60px"],
                                 mt: ["0px", "0px", "0px", "0px", "60px"],
                             }}
-                            title={"Our Current Partners."}
+                            title={"Our Current Partners and Sponsors."}
                         />
                     </Col>
                     <Col xl={{ span: 7, offset: 1 }} lg={8}>
@@ -50,12 +51,18 @@ const SponsorsArea = () => {
                                     sponsorsData.map((item) => {
                                         return (
                                             <Col key={item.node.id}>
-                                                <SponsorLogo
-                                                    sponsorLogo={
-                                                        item.node.sponsorLogo
-                                                            .childImageSharp
-                                                    }
-                                                />
+                                                <a
+                                                    href={item.node.link}
+                                                    target="_blank"
+                                                >
+                                                    <SponsorLogo
+                                                        sponsorLogo={
+                                                            item.node
+                                                                .sponsorLogo
+                                                                .childImageSharp
+                                                        }
+                                                    />
+                                                </a>
                                             </Col>
                                         );
                                     })}

@@ -94,7 +94,7 @@ const AboutArea = () => {
                                             <GatsbyImage
                                                 image={imageOne}
                                                 className="img-one"
-                                                alt="Image-Givest"
+                                                alt="Image-eHopeWarriors"
                                             />
                                         </Tilt>
                                     </Col>
@@ -118,7 +118,7 @@ const AboutArea = () => {
                                                 image={imageTwo}
                                                 className="img-two"
                                                 src=""
-                                                alt="Image-Givest"
+                                                alt="Image-eHopeWarriors"
                                             />
                                         </Tilt>
                                     </Col>
@@ -136,7 +136,7 @@ const AboutArea = () => {
                                     <StaticImage
                                         className="icon-img"
                                         src="../../../data/images/icons/check-double-line.png"
-                                        alt="Image-Givest"
+                                        alt="Image-eHopeWarriors"
                                     />
                                     <ListText
                                         dangerouslySetInnerHTML={{
@@ -149,7 +149,7 @@ const AboutArea = () => {
                                     <StaticImage
                                         className="icon-img"
                                         src="../../../data/images/icons/check-double-line.png"
-                                        alt="Image-Givest"
+                                        alt="Image-eHopeWarriors"
                                     />
                                     <ListText
                                         dangerouslySetInnerHTML={{

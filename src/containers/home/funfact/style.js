@@ -35,7 +35,7 @@ export const SectionArea = styled.section`
             border-bottom: none;
         }
         ${device.xlarge} {
-            padding: 140px 0 143px;
+            padding: 70px 0 70px;
             border-left: 1px solid #eaecec;
             border-bottom: none;
         }

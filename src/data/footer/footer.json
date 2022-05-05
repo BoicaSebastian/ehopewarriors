@@ -71,10 +71,10 @@
                 "text": "Mint Now"
             },
             {
-                "path": "/",
-                "text": "Food And Water"
+                "path": "https://elrond.com/",
+                "text": "Elrond"
             }
         ],
-        "raisedAmount": "$- --"
+        "raisedAmount": "5"
     }
 ]

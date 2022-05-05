@@ -80,7 +80,7 @@ const AboutPageArea = () => {
                                 <GatsbyImage
                                     image={imageOne}
                                     className="img-one"
-                                    alt="Image-Givest"
+                                    alt="Image-eHopeWarriors"
                                 />
                             </Thumb>
                         </LayerStyle>

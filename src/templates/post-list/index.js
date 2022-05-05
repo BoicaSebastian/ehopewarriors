@@ -16,7 +16,7 @@ const PostList = ({ location, data, pageContext, ...props }) => {
     return (
         <Layout>
             <SEO
-                title={"Page 2 of 6 - Collections, News, Tips by Givest"}
+                title={"Page 2 of 6 - Collections, News, Tips by eHopeWarriors"}
                 pathname="/"
                 isBlogPost
             />

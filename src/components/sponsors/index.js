@@ -7,7 +7,7 @@ const SponsorLogo = ({ sponsorLogo }) => {
     const image = getImage(sponsorLogo);
     return (
         <BrandLogoItem>
-            <GatsbyImage image={image} alt="Image-Givest" />
+            <GatsbyImage image={image} alt="Image-eHopeWarriors" />
         </BrandLogoItem>
     );
 };

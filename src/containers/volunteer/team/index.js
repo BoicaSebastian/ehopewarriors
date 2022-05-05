@@ -21,6 +21,8 @@ const TeamArea = () => {
                     firstName
                     lastName
                     instagram
+                    linkedin
+                    twitter
                     images {
                         childrenImageSharp {
                             gatsbyImageData(width: 580)
@@ -62,6 +64,8 @@ const TeamArea = () => {
                                             lastName={item.lastName}
                                             designation={item.designation}
                                             instagram={item.instagram}
+                                            linkedin={item.linkedin}
+                                            twitter={item.twitter}
                                             images={
                                                 item.images
                                                     .childrenImageSharp[0]

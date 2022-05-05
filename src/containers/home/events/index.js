@@ -50,7 +50,9 @@ const EventArea = () => {
                             sx={{
                                 mb: ["30px", "50px", "80px", "110", "123px"],
                             }}
-                            title={"Join Recent Fundraising Event Of Givest."}
+                            title={
+                                "Join Recent Fundraising Event Of eHopeWarriors."
+                            }
                             subTitle={"Recent Events"}
                         />
                         <EventContentWrap>
@@ -92,7 +94,7 @@ const EventArea = () => {
                                 >
                                     <StaticImage
                                         src="../../../data/images/photos/event1.png"
-                                        alt="Image-Givest"
+                                        alt="Image-eHopeWarriors"
                                     />
                                 </Tilt>
 
@@ -125,25 +127,25 @@ const EventArea = () => {
                             <div className="shape-style1">
                                 <StaticImage
                                     src="../../../data/images/shape/line1.png"
-                                    alt="Image-Givest"
+                                    alt="Image-eHopeWarriors"
                                 />
                             </div>
                             <div className="shape-style2">
                                 <StaticImage
                                     src="../../../data/images/shape/line2.png"
-                                    alt="Image-Givest"
+                                    alt="Image-eHopeWarriors"
                                 />
                             </div>
                             <div className="shape-style3">
                                 <StaticImage
                                     src="../../../data/images/shape/line3.png"
-                                    alt="Image-Givest"
+                                    alt="Image-eHopeWarriors"
                                 />
                             </div>
                             <div className="shape-style4">
                                 <StaticImage
                                     src="../../../data/images/shape/line4.png"
-                                    alt="Image-Givest"
+                                    alt="Image-eHopeWarriors"
                                 />
                             </div>
                         </LayerStyle>

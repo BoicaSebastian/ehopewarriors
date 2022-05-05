@@ -22,7 +22,7 @@ const UrgentCauses = () => {
             <Thumb>
                 <StaticImage
                     src="../../../../data/images/causes/w1.jpg"
-                    alt="Givest-HasTech"
+                    alt="eHopeWarriors-HasTech"
                 />
             </Thumb>
             <CauseContentBox>

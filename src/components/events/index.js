@@ -20,7 +20,7 @@ const EventItem = ({ title, eventDate, eventSubject, thumbImg, slug }) => {
                 <GatsbyImage
                     className="thumb-img"
                     image={image}
-                    alt="Image-Givest"
+                    alt="Image-eHopeWarriors"
                 />
                 <Button
                     className="btn-theme"
