@@ -9,6 +9,7 @@ import SponsorsArea from "../containers/home/sponsors";
 import TeamArea from "../containers/volunteer/team";
 import "./../i18n";
 import { graphql } from "gatsby";
+import CookieConsent from "react-cookie-consent";
 
 const IndexPage = () => {
     return (
@@ -22,6 +23,20 @@ const IndexPage = () => {
                 <TeamArea />
             </div>
             <FunfactArea />
+            <CookieConsent
+                location="bottom"
+                buttonText="I understand!"
+                style={{ background: "#fff", color: "2B373B" }}
+                buttonStyle={{
+                    background: "#FC6539",
+                    color: "#fff",
+                    fontSize: "15px",
+                }}
+                expires={30}
+            >
+                We care about your data, and we use cookies only to improve your
+                experience with our website.
+            </CookieConsent>
         </Layout>
     );
 };

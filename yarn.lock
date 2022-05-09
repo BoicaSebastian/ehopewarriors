@@ -7711,10 +7711,10 @@ gatsby-plugin-breadcrumb@^12.3.1:
     prop-types "15.8.1"
     wildcard-match "5.1.2"
 
-gatsby-plugin-emotion@^7.9.0:
-  version "7.9.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-7.9.0.tgz#ed031ac43b4ee3ce070bf3ccb58563fb92b75586"
-  integrity sha512-Zg0WzefNjA5iL9BNX5YCdlPOIZoODVSlrZ+AAUHvhx5XkxKcApW0oznkCi9k2HsSyDrv20BiaT82A4PJfHFSkQ==
+gatsby-plugin-emotion@^7.13.0:
+  version "7.13.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-7.13.0.tgz#d20a9d05ab7f5b8cccb89d149df40e5c5814c8a0"
+  integrity sha512-CsulpyUurhdDpeHdoHgZeDHQGk8+V2lvm/nVr9I6y13CMIYLwabq0RYjQiQ0WFmZhaZ9F3QaFWw0owyBj4K9CA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@emotion/babel-preset-css-prop" "^11.2.0"
@@ -9984,6 +9984,11 @@ jpeg-js@^0.4.0:
   version "0.4.3"
   resolved "https://registry.npmjs.org/jpeg-js/-/jpeg-js-0.4.3.tgz"
   integrity sha512-ru1HWKek8octvUHFHvE5ZzQ1yAsJmIvRdGWvSoKV52XKyuyYA437QWDttXT8eZXDSbuMpHlLzPDZUPd6idIz+Q==
+
+js-cookie@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"
+  integrity sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -12720,6 +12725,14 @@ react-chrono@^1.14.0:
     "@emotion/styled" "^11.6.0"
     classnames "^2.3.1"
     focus-visible "^5.2.0"
+
+react-cookie-consent@^7.4.1:
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/react-cookie-consent/-/react-cookie-consent-7.4.1.tgz#ce528eff28ef9b3742841496ffc1d6c092d05d29"
+  integrity sha512-SGerGIHuNkFh/eJk1ulNb4Kb/EL21UTFrAf+gCtvVE5+JkdNCeyC89Oq9X17YjvLxH7E35W4DY+nxPE5n2RxPQ==
+  dependencies:
+    js-cookie "^2.2.1"
+    prop-types "^15.7.2"
 
 react-country-flag@^3.0.2:
   version "3.0.2"
