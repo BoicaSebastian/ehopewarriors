@@ -8,7 +8,7 @@ module.exports = {
     twitterUsername: "@eHopeWarriors",
     keywords: ["bootstrap", "html", "react", "vue"],
     image: "",
-    siteUrl: "https://givest.com",
+    siteUrl: "https://ehopewarriors.com",
     pathPrefix: "/",
     localUrl: "http://localhost:8000",
     canonical: "",
