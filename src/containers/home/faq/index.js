@@ -28,11 +28,10 @@ const Faq = () => {
                                     How can I get a eHOPEwarriors NFT?
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    Will be available to mint directly from
-                                    MARKETPLACE website. You will also be able
-                                    to purchase from secondary market or from
-                                    our platform when it is online. Please make
-                                    sure you use the correct link.
+                                    Will be available to mint directly from our
+                                    website. You will also be able to purchase
+                                    from secondary markets once minting starts.
+                                    Please make sure you use the correct links.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">

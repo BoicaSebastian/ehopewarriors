@@ -27,7 +27,6 @@ const AboutPageArea = () => {
                 content1
                 content2
                 content3
-                content4
                 image1 {
                     childImageSharp {
                         gatsbyImageData
@@ -43,6 +42,7 @@ const AboutPageArea = () => {
                     text5
                     text6
                     text7
+                    text8
                     title
                 }
             }
@@ -54,7 +54,6 @@ const AboutPageArea = () => {
         content1,
         content2,
         content3,
-        content4,
         mission,
     } = aboutSectonQery.aboutUsJson;
 
@@ -88,11 +87,11 @@ const AboutPageArea = () => {
                     <Col lg={8} xl={8}>
                         <AboutContent>
                             <AboutTextStyle>
-                                <p>About our story life</p>
+                                <p>About us</p>
                             </AboutTextStyle>
+                            <p>{content1}</p>
                             <p>{content2}</p>
                             <p>{content3}</p>
-                            <p>{content4}</p>
                         </AboutContent>
                     </Col>
                     <Col>
@@ -115,6 +114,7 @@ const AboutPageArea = () => {
                                             text5={itemData.text5}
                                             text6={itemData.text6}
                                             text7={itemData.text7}
+                                            text8={itemData.text8}
                                             VerientClassName={
                                                 itemData.VerientClassName
                                             }

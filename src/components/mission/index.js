@@ -17,6 +17,7 @@ const MissionBox = ({
     text5,
     text6,
     text7,
+    text8,
     VerientClassName,
 }) => {
     return (
@@ -29,6 +30,7 @@ const MissionBox = ({
             <DesctionTextOne>{text5}</DesctionTextOne>
             <DesctionTextOne>{text6}</DesctionTextOne>
             <DesctionTextOne>{text7}</DesctionTextOne>
+            <DesctionTextOne>{text8}</DesctionTextOne>
         </ContentBoxItem>
     );
 };
