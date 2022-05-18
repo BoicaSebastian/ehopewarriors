@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import { useEffect, useState, Fragment } from "react";
+import { useEffect, useState, Fragment, useRef } from "react";
 import PropTypes from "prop-types";
 import "../../assets/css/bootstrap.css";
 import "../../assets/css/flaticon.css";
@@ -13,6 +13,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import Button from "@components/ui/button";
 import MobileNavMenu from "@components/menu/mobile-menu";
 import {
+    HeaderFill,
     HeaderTop,
     HeaderMenuArea,
     HeaderActionArea,
@@ -45,13 +46,18 @@ const Header = () => {
     const menuData = allmenuData.allMenuJson.edges;
     const { t } = useTranslation();
 
+    const headerElement = useRef(null);
+
     // Sticky Menu
     const [scroll, setScroll] = useState(0);
     const [headerTop, setHeaderTop] = useState(0);
+    const [headerPadding, setHeaderPadding] = useState(0);
 
     useEffect(() => {
         const header = document.querySelector(".header-section");
         setHeaderTop(header.offsetTop);
+        setHeaderPadding(headerElement.current?.clientHeight);
+        console.log(headerElement);
         window.addEventListener("scroll", handleScroll);
         return () => {
             window.removeEventListener("scroll", handleScroll);
@@ -80,6 +86,7 @@ const Header = () => {
                 className={`header-section ${
                     scroll > headerTop ? "is-sticky" : ""
                 }`}
+                ref={headerElement}
             >
                 <Container>
                     <Row className="align-items-center">
@@ -116,6 +123,7 @@ const Header = () => {
                     </Row>
                 </Container>
             </HeaderTop>
+            {scroll > headerTop && <HeaderFill height={headerPadding} />}
             <MobileMenuArea
                 className={`${ofcanvasOpen ? "mobile-menu-open" : ""}`}
             >

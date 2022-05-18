@@ -1,5 +1,11 @@
 import styled, { themeGet, device } from "@theme/utils";
 
+export const HeaderFill = styled.div`
+    height: ${(props) => props.height + "px"};
+    width: 100%;
+    display: flex;
+`;
+
 export const Span = styled.span`
     color: ${themeGet("colors.success")};
     font-family: ${themeGet("fonts.heading")};
@@ -28,6 +34,7 @@ export const HeaderTop = styled.div`
         -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
         background-color: #fff;
         box-shadow: 0 8px 20px 0 rgb(0 0 0 / 10%);
+        transition: box-shadow 0.7s ease-in-out;
         position: fixed;
         left: 0;
         top: 0;
